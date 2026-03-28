@@ -29,8 +29,6 @@
 
 ## sqlx::query! compile check
 
-需要在项目根目录中 `.env` 文件中配置环境变量
-
 You need set environment variable in `.env` file
 
 ```
