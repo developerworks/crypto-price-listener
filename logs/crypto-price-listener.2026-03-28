@@ -1,0 +1,1362 @@
+[2m2026-03-28T19:27:42.195206Z[0m [32m INFO[0m Database connection pool created successfully
+[2m2026-03-28T19:27:42.195227Z[0m [32m INFO[0m Starting crypto price listener service...
+[2m2026-03-28T19:27:42.195249Z[0m [32m INFO[0m Connection attempt # 1
+[2m2026-03-28T19:27:42.195263Z[0m [32m INFO[0m Connecting to wss://ws-live-data.polymarket.com
+[2m2026-03-28T19:27:42.616927Z[0m [32m INFO[0m WebSocket connected successfully
+[2m2026-03-28T19:27:42.617056Z[0m [32m INFO[0m Subscription message sent
+[2m2026-03-28T19:27:43.338856Z[0m [32m INFO[0m Price update received: hype/usd 1774726062000 39841629985676520000
+[2m2026-03-28T19:27:43.341158Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1652
+[2m2026-03-28T19:27:43.341270Z[0m [32m INFO[0m Price update received: eth/usd 1774726062000 2018681990000000000000
+[2m2026-03-28T19:27:43.405606Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1653
+[2m2026-03-28T19:27:43.405689Z[0m [32m INFO[0m Price update received: bnb/usd 1774726062000 615732945459016800000
+[2m2026-03-28T19:27:43.406145Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1654
+[2m2026-03-28T19:27:43.406190Z[0m [32m INFO[0m Price update received: doge/usd 1774726062000 92029913522673810
+[2m2026-03-28T19:27:43.406531Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1655
+[2m2026-03-28T19:27:43.406591Z[0m [32m INFO[0m Price update received: sol/usd 1774726062000 83130202780205370000
+[2m2026-03-28T19:27:43.406999Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1656
+[2m2026-03-28T19:27:43.416231Z[0m [32m INFO[0m Price update received: btc/usd 1774726062000 66805223830000000000000
+[2m2026-03-28T19:27:43.416955Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1657
+[2m2026-03-28T19:27:43.887706Z[0m [32m INFO[0m Price update received: doge/usd 1774726063000 92030000000000000
+[2m2026-03-28T19:27:43.889233Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1658
+[2m2026-03-28T19:27:43.905247Z[0m [32m INFO[0m Price update received: hype/usd 1774726063000 39841629985676520000
+[2m2026-03-28T19:27:43.906107Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1659
+[2m2026-03-28T19:27:43.906181Z[0m [32m INFO[0m Price update received: eth/usd 1774726063000 2018681880000000000000
+[2m2026-03-28T19:27:43.906826Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1660
+[2m2026-03-28T19:27:43.906920Z[0m [32m INFO[0m Price update received: xrp/usd 1774726063000 1343722850000000000
+[2m2026-03-28T19:27:43.907722Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1661
+[2m2026-03-28T19:27:43.907837Z[0m [32m INFO[0m Price update received: sol/usd 1774726063000 83130198136334520000
+[2m2026-03-28T19:27:43.908613Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1662
+[2m2026-03-28T19:27:43.935615Z[0m [32m INFO[0m Price update received: btc/usd 1774726063000 66805223240000000000000
+[2m2026-03-28T19:27:43.936519Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1663
+[2m2026-03-28T19:27:43.953016Z[0m [32m INFO[0m Price update received: bnb/usd 1774726063000 615732960344148600000
+[2m2026-03-28T19:27:43.953633Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1664
+[2m2026-03-28T19:27:44.995893Z[0m [32m INFO[0m Price update received: bnb/usd 1774726064000 615733560786686100000
+[2m2026-03-28T19:27:44.997329Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1665
+[2m2026-03-28T19:27:44.997417Z[0m [32m INFO[0m Price update received: sol/usd 1774726064000 83130144114392180000
+[2m2026-03-28T19:27:44.998164Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1666
+[2m2026-03-28T19:27:45.038317Z[0m [32m INFO[0m Price update received: hype/usd 1774726064000 39841629985676520000
+[2m2026-03-28T19:27:45.039183Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1667
+[2m2026-03-28T19:27:45.039912Z[0m [32m INFO[0m Price update received: doge/usd 1774726064000 92030000000000000
+[2m2026-03-28T19:27:45.040601Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1668
+[2m2026-03-28T19:27:45.040688Z[0m [32m INFO[0m Price update received: eth/usd 1774726064000 2018666256042647200000
+[2m2026-03-28T19:27:45.041226Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1669
+[2m2026-03-28T19:27:45.066824Z[0m [32m INFO[0m Price update received: xrp/usd 1774726064000 1343714295439114700
+[2m2026-03-28T19:27:45.067707Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1670
+[2m2026-03-28T19:27:45.077726Z[0m [32m INFO[0m Price update received: btc/usd 1774726064000 66805227140000000000000
+[2m2026-03-28T19:27:45.078304Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1671
+[2m2026-03-28T19:27:46.069389Z[0m [32m INFO[0m Price update received: hype/usd 1774726065000 39841964044483740000
+[2m2026-03-28T19:27:46.070871Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1672
+[2m2026-03-28T19:27:46.072154Z[0m [32m INFO[0m Price update received: bnb/usd 1774726065000 615732206249593800000
+[2m2026-03-28T19:27:46.072700Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1673
+[2m2026-03-28T19:27:46.080330Z[0m [32m INFO[0m Price update received: eth/usd 1774726065000 2018653078660497350000
+[2m2026-03-28T19:27:46.081199Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1674
+[2m2026-03-28T19:27:46.087230Z[0m [32m INFO[0m Price update received: xrp/usd 1774726065000 1343713119513896700
+[2m2026-03-28T19:27:46.087838Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1675
+[2m2026-03-28T19:27:46.096350Z[0m [32m INFO[0m Price update received: doge/usd 1774726065000 92031000000000000
+[2m2026-03-28T19:27:46.097221Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1676
+[2m2026-03-28T19:27:46.101626Z[0m [32m INFO[0m Price update received: sol/usd 1774726065000 83130358725618340000
+[2m2026-03-28T19:27:46.102275Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1677
+[2m2026-03-28T19:27:46.105912Z[0m [32m INFO[0m Price update received: btc/usd 1774726065000 66806086100000000000000
+[2m2026-03-28T19:27:46.106778Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1678
+[2m2026-03-28T19:27:47.100399Z[0m [32m INFO[0m Price update received: hype/usd 1774726066000 39842872334174120000
+[2m2026-03-28T19:27:47.101834Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1679
+[2m2026-03-28T19:27:47.107003Z[0m [32m INFO[0m Price update received: xrp/usd 1774726066000 1343712486817811300
+[2m2026-03-28T19:27:47.107744Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1680
+[2m2026-03-28T19:27:47.124996Z[0m [32m INFO[0m Price update received: eth/usd 1774726066000 2018653151342296700000
+[2m2026-03-28T19:27:47.125859Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1681
+[2m2026-03-28T19:27:47.138106Z[0m [32m INFO[0m Price update received: doge/usd 1774726066000 92030200000000000
+[2m2026-03-28T19:27:47.138820Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1682
+[2m2026-03-28T19:27:47.155599Z[0m [32m INFO[0m Price update received: bnb/usd 1774726066000 615732180037841000000
+[2m2026-03-28T19:27:47.156486Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1683
+[2m2026-03-28T19:27:47.185092Z[0m [32m INFO[0m Price update received: sol/usd 1774726066000 83130617687618090000
+[2m2026-03-28T19:27:47.185891Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1684
+[2m2026-03-28T19:27:47.186013Z[0m [32m INFO[0m Price update received: btc/usd 1774726066000 66806087070000000000000
+[2m2026-03-28T19:27:47.187041Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1685
+[2m2026-03-28T19:27:48.232228Z[0m [32m INFO[0m Price update received: eth/usd 1774726067000 2018664949264165000000
+[2m2026-03-28T19:27:48.233330Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1686
+[2m2026-03-28T19:27:48.257811Z[0m [32m INFO[0m Price update received: bnb/usd 1774726067000 615732876902469600000
+[2m2026-03-28T19:27:48.258842Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1687
+[2m2026-03-28T19:27:48.261925Z[0m [32m INFO[0m Price update received: hype/usd 1774726067000 39843177701215190000
+[2m2026-03-28T19:27:48.262696Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1688
+[2m2026-03-28T19:27:48.271298Z[0m [32m INFO[0m Price update received: xrp/usd 1774726067000 1343714519214100700
+[2m2026-03-28T19:27:48.272247Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1689
+[2m2026-03-28T19:27:48.305349Z[0m [32m INFO[0m Price update received: doge/usd 1774726067000 92030000000000000
+[2m2026-03-28T19:27:48.306150Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1690
+[2m2026-03-28T19:27:48.309742Z[0m [32m INFO[0m Price update received: btc/usd 1774726067000 66806087560000000000000
+[2m2026-03-28T19:27:48.310618Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1691
+[2m2026-03-28T19:27:48.344241Z[0m [32m INFO[0m Price update received: sol/usd 1774726067000 83130617191860245000
+[2m2026-03-28T19:27:48.345147Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1692
+[2m2026-03-28T19:27:49.262647Z[0m [32m INFO[0m Price update received: sol/usd 1774726068000 83130616852633295000
+[2m2026-03-28T19:27:49.263463Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1693
+[2m2026-03-28T19:27:49.279180Z[0m [32m INFO[0m Price update received: bnb/usd 1774726068000 615731041270886500000
+[2m2026-03-28T19:27:49.279703Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1694
+[2m2026-03-28T19:27:49.284516Z[0m [32m INFO[0m Price update received: doge/usd 1774726068000 92030345765853260
+[2m2026-03-28T19:27:49.285133Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1695
+[2m2026-03-28T19:27:49.324766Z[0m [32m INFO[0m Price update received: xrp/usd 1774726068000 1343714236187011000
+[2m2026-03-28T19:27:49.325677Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1696
+[2m2026-03-28T19:27:49.325778Z[0m [32m INFO[0m Price update received: hype/usd 1774726068000 39844344884719476000
+[2m2026-03-28T19:27:49.326387Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1697
+[2m2026-03-28T19:27:49.379317Z[0m [32m INFO[0m Price update received: eth/usd 1774726068000 2018664360739825300000
+[2m2026-03-28T19:27:49.380488Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1698
+[2m2026-03-28T19:27:49.421316Z[0m [32m INFO[0m Price update received: btc/usd 1774726068000 66806086500000000000000
+[2m2026-03-28T19:27:49.422102Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1699
+[2m2026-03-28T19:27:50.282751Z[0m [32m INFO[0m Price update received: eth/usd 1774726069000 2018663788795369950000
+[2m2026-03-28T19:27:50.284192Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1700
+[2m2026-03-28T19:27:50.303377Z[0m [32m INFO[0m Price update received: btc/usd 1774726069000 66805223340000000000000
+[2m2026-03-28T19:27:50.304342Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1701
+[2m2026-03-28T19:27:50.321777Z[0m [32m INFO[0m Price update received: xrp/usd 1774726069000 1343715256301365600
+[2m2026-03-28T19:27:50.322973Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1702
+[2m2026-03-28T19:27:50.351454Z[0m [32m INFO[0m Price update received: bnb/usd 1774726069000 615730321847977000000
+[2m2026-03-28T19:27:50.352201Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1703
+[2m2026-03-28T19:27:50.352308Z[0m [32m INFO[0m Price update received: doge/usd 1774726069000 92031000000000000
+[2m2026-03-28T19:27:50.353331Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1704
+[2m2026-03-28T19:27:50.366062Z[0m [32m INFO[0m Price update received: sol/usd 1774726069000 83130611852633295000
+[2m2026-03-28T19:27:50.366656Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1705
+[2m2026-03-28T19:27:50.369840Z[0m [32m INFO[0m Price update received: hype/usd 1774726069000 39844955335760330000
+[2m2026-03-28T19:27:50.370825Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1706
+[2m2026-03-28T19:27:51.347285Z[0m [32m INFO[0m Price update received: btc/usd 1774726070000 66806102900000000000000
+[2m2026-03-28T19:27:51.348535Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1707
+[2m2026-03-28T19:27:51.376120Z[0m [32m INFO[0m Price update received: xrp/usd 1774726070000 1343715457658832400
+[2m2026-03-28T19:27:51.377223Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1708
+[2m2026-03-28T19:27:51.377289Z[0m [32m INFO[0m Price update received: doge/usd 1774726070000 92031000000000000
+[2m2026-03-28T19:27:51.378061Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1709
+[2m2026-03-28T19:27:51.408294Z[0m [32m INFO[0m Price update received: sol/usd 1774726070000 83130386782228590000
+[2m2026-03-28T19:27:51.409229Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1710
+[2m2026-03-28T19:27:51.411207Z[0m [32m INFO[0m Price update received: eth/usd 1774726070000 2018664531319903900000
+[2m2026-03-28T19:27:51.411905Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1711
+[2m2026-03-28T19:27:51.484632Z[0m [32m INFO[0m Price update received: bnb/usd 1774726070000 615730644602599000000
+[2m2026-03-28T19:27:51.485685Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1712
+[2m2026-03-28T19:27:51.486203Z[0m [32m INFO[0m Price update received: hype/usd 1774726070000 39845490290080550000
+[2m2026-03-28T19:27:51.486701Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1713
+[2m2026-03-28T19:27:51.872902Z[0m [32m INFO[0m Price update received: eth/usd 1774726071000 2018665041555439000000
+[2m2026-03-28T19:27:51.874446Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1714
+[2m2026-03-28T19:27:51.892994Z[0m [32m INFO[0m Price update received: bnb/usd 1774726071000 615731118911773800000
+[2m2026-03-28T19:27:51.894025Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1715
+[2m2026-03-28T19:27:51.900351Z[0m [32m INFO[0m Price update received: sol/usd 1774726071000 83130382302806450000
+[2m2026-03-28T19:27:51.901051Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1716
+[2m2026-03-28T19:27:51.901288Z[0m [32m INFO[0m Price update received: doge/usd 1774726071000 92031000000000000
+[2m2026-03-28T19:27:51.902041Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1717
+[2m2026-03-28T19:27:51.942932Z[0m [32m INFO[0m Price update received: btc/usd 1774726071000 66806105650000000000000
+[2m2026-03-28T19:27:51.943882Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1718
+[2m2026-03-28T19:27:51.960333Z[0m [32m INFO[0m Price update received: xrp/usd 1774726071000 1343715457658832400
+[2m2026-03-28T19:27:51.961241Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1719
+[2m2026-03-28T19:27:51.982554Z[0m [32m INFO[0m Price update received: hype/usd 1774726071000 39845975851677615000
+[2m2026-03-28T19:27:51.983212Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1720
+[2m2026-03-28T19:27:53.055530Z[0m [32m INFO[0m Price update received: bnb/usd 1774726072000 615731132420210500000
+[2m2026-03-28T19:27:53.056998Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1721
+[2m2026-03-28T19:27:53.057075Z[0m [32m INFO[0m Price update received: sol/usd 1774726072000 83130377894681835000
+[2m2026-03-28T19:27:53.058094Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1722
+[2m2026-03-28T19:27:53.058169Z[0m [32m INFO[0m Price update received: btc/usd 1774726072000 66806110860000000000000
+[2m2026-03-28T19:27:53.058632Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1723
+[2m2026-03-28T19:27:53.079484Z[0m [32m INFO[0m Price update received: xrp/usd 1774726072000 1343712996451085400
+[2m2026-03-28T19:27:53.080430Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1724
+[2m2026-03-28T19:27:53.080496Z[0m [32m INFO[0m Price update received: hype/usd 1774726072000 39846311707854284000
+[2m2026-03-28T19:27:53.081305Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1725
+[2m2026-03-28T19:27:53.082529Z[0m [32m INFO[0m Price update received: doge/usd 1774726072000 92031000000000000
+[2m2026-03-28T19:27:53.083065Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1726
+[2m2026-03-28T19:27:53.117232Z[0m [32m INFO[0m Price update received: eth/usd 1774726072000 2018667984940478900000
+[2m2026-03-28T19:27:53.118241Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1727
+[2m2026-03-28T19:27:54.489059Z[0m [32m INFO[0m Price update received: sol/usd 1774726073000 83130901785958865000
+[2m2026-03-28T19:27:54.490393Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1728
+[2m2026-03-28T19:27:54.496655Z[0m [32m INFO[0m Price update received: doge/usd 1774726073000 92031600000000000
+[2m2026-03-28T19:27:54.497645Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1729
+[2m2026-03-28T19:27:54.521837Z[0m [32m INFO[0m Price update received: xrp/usd 1774726073000 1343713299421223300
+[2m2026-03-28T19:27:54.522864Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1730
+[2m2026-03-28T19:27:54.528704Z[0m [32m INFO[0m Price update received: bnb/usd 1774726073000 615733068346655400000
+[2m2026-03-28T19:27:54.529362Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1731
+[2m2026-03-28T19:27:54.533973Z[0m [32m INFO[0m Price update received: eth/usd 1774726073000 2018676023955549750000
+[2m2026-03-28T19:27:54.534672Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1732
+[2m2026-03-28T19:27:54.538541Z[0m [32m INFO[0m Price update received: btc/usd 1774726073000 66805628450000000000000
+[2m2026-03-28T19:27:54.539364Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1733
+[2m2026-03-28T19:27:54.543264Z[0m [32m INFO[0m Price update received: hype/usd 1774726073000 39846309036753860000
+[2m2026-03-28T19:27:54.543879Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1734
+[2m2026-03-28T19:27:54.977134Z[0m [32m INFO[0m Price update received: btc/usd 1774726074000 66805628450000000000000
+[2m2026-03-28T19:27:54.978306Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1735
+[2m2026-03-28T19:27:54.978415Z[0m [32m INFO[0m Price update received: xrp/usd 1774726074000 1343715583687768900
+[2m2026-03-28T19:27:54.979109Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1736
+[2m2026-03-28T19:27:54.999429Z[0m [32m INFO[0m Price update received: sol/usd 1774726074000 83130964842939800000
+[2m2026-03-28T19:27:55.000101Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1737
+[2m2026-03-28T19:27:55.000157Z[0m [32m INFO[0m Price update received: eth/usd 1774726074000 2018676159146268300000
+[2m2026-03-28T19:27:55.001008Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1738
+[2m2026-03-28T19:27:55.001106Z[0m [32m INFO[0m Price update received: doge/usd 1774726074000 92032000000000000
+[2m2026-03-28T19:27:55.001943Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1739
+[2m2026-03-28T19:27:55.031585Z[0m [32m INFO[0m Price update received: bnb/usd 1774726074000 615733489477313700000
+[2m2026-03-28T19:27:55.032638Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1740
+[2m2026-03-28T19:27:55.051020Z[0m [32m INFO[0m Price update received: hype/usd 1774726074000 39847842089364946000
+[2m2026-03-28T19:27:55.051699Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1741
+[2m2026-03-28T19:27:55.958295Z[0m [32m INFO[0m Price update received: eth/usd 1774726075000 2018676717016229500000
+[2m2026-03-28T19:27:55.959754Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1742
+[2m2026-03-28T19:27:55.960210Z[0m [32m INFO[0m Price update received: sol/usd 1774726075000 83131035582191095000
+[2m2026-03-28T19:27:55.960934Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1743
+[2m2026-03-28T19:27:55.972199Z[0m [32m INFO[0m Price update received: doge/usd 1774726075000 92032100000000000
+[2m2026-03-28T19:27:55.972830Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1744
+[2m2026-03-28T19:27:55.986387Z[0m [32m INFO[0m Price update received: xrp/usd 1774726075000 1343716407949615700
+[2m2026-03-28T19:27:55.987193Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1745
+[2m2026-03-28T19:27:55.998384Z[0m [32m INFO[0m Price update received: btc/usd 1774726075000 66805559950000000000000
+[2m2026-03-28T19:27:55.999179Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1746
+[2m2026-03-28T19:27:56.013446Z[0m [32m INFO[0m Price update received: bnb/usd 1774726075000 615733248099176600000
+[2m2026-03-28T19:27:56.014242Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1747
+[2m2026-03-28T19:27:56.040868Z[0m [32m INFO[0m Price update received: hype/usd 1774726075000 39848610759025060000
+[2m2026-03-28T19:27:56.041862Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1748
+[2m2026-03-28T19:27:56.966186Z[0m [32m INFO[0m Price update received: btc/usd 1774726076000 66806081123925020000000
+[2m2026-03-28T19:27:56.967920Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1749
+[2m2026-03-28T19:27:57.004517Z[0m [32m INFO[0m Price update received: hype/usd 1774726076000 39848882037804074000
+[2m2026-03-28T19:27:57.005527Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1750
+[2m2026-03-28T19:27:57.033666Z[0m [32m INFO[0m Price update received: sol/usd 1774726076000 83131270582191095000
+[2m2026-03-28T19:27:57.034587Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1751
+[2m2026-03-28T19:27:57.035520Z[0m [32m INFO[0m Price update received: bnb/usd 1774726076000 615733728765537800000
+[2m2026-03-28T19:27:57.036093Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1752
+[2m2026-03-28T19:27:57.043735Z[0m [32m INFO[0m Price update received: xrp/usd 1774726076000 1343716551043595500
+[2m2026-03-28T19:27:57.044640Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1753
+[2m2026-03-28T19:27:57.044703Z[0m [32m INFO[0m Price update received: doge/usd 1774726076000 92032000000000000
+[2m2026-03-28T19:27:57.045519Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1754
+[2m2026-03-28T19:27:57.068741Z[0m [32m INFO[0m Price update received: eth/usd 1774726076000 2018677116308946450000
+[2m2026-03-28T19:27:57.069640Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1755
+[2m2026-03-28T19:27:57.931239Z[0m [32m INFO[0m Price update received: btc/usd 1774726077000 66806500990000000000000
+[2m2026-03-28T19:27:57.932677Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1756
+[2m2026-03-28T19:27:57.950744Z[0m [32m INFO[0m Price update received: eth/usd 1774726077000 2018676402369852650000
+[2m2026-03-28T19:27:57.951822Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1757
+[2m2026-03-28T19:27:57.951916Z[0m [32m INFO[0m Price update received: xrp/usd 1774726077000 1343715678528347500
+[2m2026-03-28T19:27:57.952758Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1758
+[2m2026-03-28T19:27:57.956681Z[0m [32m INFO[0m Price update received: sol/usd 1774726077000 83132084872476865000
+[2m2026-03-28T19:27:57.957363Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1759
+[2m2026-03-28T19:27:57.965206Z[0m [32m INFO[0m Price update received: hype/usd 1774726077000 39848878633466900000
+[2m2026-03-28T19:27:57.966030Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1760
+[2m2026-03-28T19:27:57.978008Z[0m [32m INFO[0m Price update received: doge/usd 1774726077000 92031303012406100
+[2m2026-03-28T19:27:57.978841Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1761
+[2m2026-03-28T19:27:57.978944Z[0m [32m INFO[0m Price update received: bnb/usd 1774726077000 615733783406461700000
+[2m2026-03-28T19:27:57.979821Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1762
+[2m2026-03-28T19:27:58.886688Z[0m [32m INFO[0m Price update received: sol/usd 1774726078000 83133179364272180000
+[2m2026-03-28T19:27:58.888237Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1763
+[2m2026-03-28T19:27:58.903337Z[0m [32m INFO[0m Price update received: btc/usd 1774726078000 66806439880000000000000
+[2m2026-03-28T19:27:58.904454Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1764
+[2m2026-03-28T19:27:58.909509Z[0m [32m INFO[0m Price update received: eth/usd 1774726078000 2018675599612249250000
+[2m2026-03-28T19:27:58.910232Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1765
+[2m2026-03-28T19:27:58.915428Z[0m [32m INFO[0m Price update received: xrp/usd 1774726078000 1343714275196477000
+[2m2026-03-28T19:27:58.916255Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1766
+[2m2026-03-28T19:27:58.930191Z[0m [32m INFO[0m Price update received: doge/usd 1774726078000 92030300000000000
+[2m2026-03-28T19:27:58.931122Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1767
+[2m2026-03-28T19:27:58.933802Z[0m [32m INFO[0m Price update received: hype/usd 1774726078000 39848921801558920000
+[2m2026-03-28T19:27:58.934356Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1768
+[2m2026-03-28T19:27:58.982965Z[0m [32m INFO[0m Price update received: bnb/usd 1774726078000 615733039968836600000
+[2m2026-03-28T19:27:58.984031Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1769
+[2m2026-03-28T19:27:59.851605Z[0m [32m INFO[0m Price update received: eth/usd 1774726079000 2018675712056984700000
+[2m2026-03-28T19:27:59.853064Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1770
+[2m2026-03-28T19:27:59.853143Z[0m [32m INFO[0m Price update received: btc/usd 1774726079000 66806439720000000000000
+[2m2026-03-28T19:27:59.854088Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1771
+[2m2026-03-28T19:27:59.866847Z[0m [32m INFO[0m Price update received: doge/usd 1774726079000 92030000000000000
+[2m2026-03-28T19:27:59.867915Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1772
+[2m2026-03-28T19:27:59.875616Z[0m [32m INFO[0m Price update received: bnb/usd 1774726079000 615733310664459900000
+[2m2026-03-28T19:27:59.876471Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1773
+[2m2026-03-28T19:27:59.876572Z[0m [32m INFO[0m Price update received: xrp/usd 1774726079000 1343714080049614700
+[2m2026-03-28T19:27:59.877313Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1774
+[2m2026-03-28T19:27:59.884475Z[0m [32m INFO[0m Price update received: hype/usd 1774726079000 39848333596956294000
+[2m2026-03-28T19:27:59.885449Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1775
+[2m2026-03-28T19:27:59.933678Z[0m [32m INFO[0m Price update received: sol/usd 1774726079000 83133035370416295000
+[2m2026-03-28T19:27:59.934781Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1776
+[2m2026-03-28T19:28:00.818676Z[0m [32m INFO[0m Price update received: bnb/usd 1774726080000 615733511647991200000
+[2m2026-03-28T19:28:00.819952Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1777
+[2m2026-03-28T19:28:00.823089Z[0m [32m INFO[0m Price update received: hype/usd 1774726080000 39848333596956294000
+[2m2026-03-28T19:28:00.823868Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1778
+[2m2026-03-28T19:28:00.823950Z[0m [32m INFO[0m Price update received: eth/usd 1774726080000 2018676373017829050000
+[2m2026-03-28T19:28:00.824513Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1779
+[2m2026-03-28T19:28:00.824598Z[0m [32m INFO[0m Price update received: doge/usd 1774726080000 92031000000000000
+[2m2026-03-28T19:28:00.825148Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1780
+[2m2026-03-28T19:28:00.825211Z[0m [32m INFO[0m Price update received: btc/usd 1774726080000 66806476500000000000000
+[2m2026-03-28T19:28:00.825611Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1781
+[2m2026-03-28T19:28:00.830627Z[0m [32m INFO[0m Price update received: xrp/usd 1774726080000 1343714717058199400
+[2m2026-03-28T19:28:00.831231Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1782
+[2m2026-03-28T19:28:00.834330Z[0m [32m INFO[0m Price update received: sol/usd 1774726080000 83132750370416295000
+[2m2026-03-28T19:28:00.834893Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1783
+[2m2026-03-28T19:28:01.740931Z[0m [32m INFO[0m Price update received: doge/usd 1774726081000 92031000000000000
+[2m2026-03-28T19:28:01.742137Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1784
+[2m2026-03-28T19:28:01.799911Z[0m [32m INFO[0m Price update received: xrp/usd 1774726081000 1343714663135680000
+[2m2026-03-28T19:28:01.800912Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1785
+[2m2026-03-28T19:28:01.809992Z[0m [32m INFO[0m Price update received: btc/usd 1774726081000 66805579080000000000000
+[2m2026-03-28T19:28:01.811097Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1786
+[2m2026-03-28T19:28:01.833273Z[0m [32m INFO[0m Price update received: bnb/usd 1774726081000 615738146581664100000
+[2m2026-03-28T19:28:01.834175Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1787
+[2m2026-03-28T19:28:01.854093Z[0m [32m INFO[0m Price update received: eth/usd 1774726081000 2018676595760351600000
+[2m2026-03-28T19:28:01.855139Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1788
+[2m2026-03-28T19:28:01.873867Z[0m [32m INFO[0m Price update received: sol/usd 1774726081000 83133905385317815000
+[2m2026-03-28T19:28:01.874931Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1789
+[2m2026-03-28T19:28:01.926882Z[0m [32m INFO[0m Price update received: hype/usd 1774726081000 39848333432680704000
+[2m2026-03-28T19:28:01.928014Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1790
+[2m2026-03-28T19:28:03.219238Z[0m [32m INFO[0m Price update received: sol/usd 1774726082000 83135571532246170000
+[2m2026-03-28T19:28:03.220357Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1791
+[2m2026-03-28T19:28:03.232463Z[0m [32m INFO[0m Price update received: doge/usd 1774726082000 92032500000000000
+[2m2026-03-28T19:28:03.233511Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1792
+[2m2026-03-28T19:28:03.266212Z[0m [32m INFO[0m Price update received: hype/usd 1774726082000 39848331035264960000
+[2m2026-03-28T19:28:03.267099Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1793
+[2m2026-03-28T19:28:03.277041Z[0m [32m INFO[0m Price update received: bnb/usd 1774726082000 615737402851486900000
+[2m2026-03-28T19:28:03.278059Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1794
+[2m2026-03-28T19:28:03.283363Z[0m [32m INFO[0m Price update received: xrp/usd 1774726082000 1343715351513891900
+[2m2026-03-28T19:28:03.283983Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1795
+[2m2026-03-28T19:28:03.307350Z[0m [32m INFO[0m Price update received: eth/usd 1774726082000 2018675843703129100000
+[2m2026-03-28T19:28:03.308354Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1796
+[2m2026-03-28T19:28:03.405336Z[0m [32m INFO[0m Price update received: btc/usd 1774726082000 66805629370000000000000
+[2m2026-03-28T19:28:03.406288Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1797
+[2m2026-03-28T19:28:04.208351Z[0m [32m INFO[0m Price update received: doge/usd 1774726083000 92033000000000000
+[2m2026-03-28T19:28:04.210022Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1798
+[2m2026-03-28T19:28:04.237162Z[0m [32m INFO[0m Price update received: btc/usd 1774726083000 66805687870000000000000
+[2m2026-03-28T19:28:04.238056Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1799
+[2m2026-03-28T19:28:04.238141Z[0m [32m INFO[0m Price update received: xrp/usd 1774726083000 1343738194433228400
+[2m2026-03-28T19:28:04.238603Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1800
+[2m2026-03-28T19:28:04.249479Z[0m [32m INFO[0m Price update received: hype/usd 1774726083000 39849066275346820000
+[2m2026-03-28T19:28:04.250268Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1801
+[2m2026-03-28T19:28:04.250351Z[0m [32m INFO[0m Price update received: eth/usd 1774726083000 2018678117022082500000
+[2m2026-03-28T19:28:04.251130Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1802
+[2m2026-03-28T19:28:04.251213Z[0m [32m INFO[0m Price update received: sol/usd 1774726083000 83136423634416045000
+[2m2026-03-28T19:28:04.251621Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1803
+[2m2026-03-28T19:28:04.288624Z[0m [32m INFO[0m Price update received: bnb/usd 1774726083000 615739515838340300000
+[2m2026-03-28T19:28:04.289662Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1804
+[2m2026-03-28T19:28:05.348225Z[0m [32m INFO[0m Price update received: hype/usd 1774726084000 39850849533649715000
+[2m2026-03-28T19:28:05.349421Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1805
+[2m2026-03-28T19:28:05.367287Z[0m [32m INFO[0m Price update received: xrp/usd 1774726084000 1343717348472897500
+[2m2026-03-28T19:28:05.368327Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1806
+[2m2026-03-28T19:28:05.369251Z[0m [32m INFO[0m Price update received: eth/usd 1774726084000 2018677189690541900000
+[2m2026-03-28T19:28:05.369745Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1807
+[2m2026-03-28T19:28:05.374864Z[0m [32m INFO[0m Price update received: sol/usd 1774726084000 83136491370137450000
+[2m2026-03-28T19:28:05.375652Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1808
+[2m2026-03-28T19:28:05.411490Z[0m [32m INFO[0m Price update received: bnb/usd 1774726084000 615733816796207200000
+[2m2026-03-28T19:28:05.412456Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1809
+[2m2026-03-28T19:28:05.461038Z[0m [32m INFO[0m Price update received: doge/usd 1774726084000 92032700000000000
+[2m2026-03-28T19:28:05.462148Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1810
+[2m2026-03-28T19:28:05.500665Z[0m [32m INFO[0m Price update received: btc/usd 1774726084000 66805669330000000000000
+[2m2026-03-28T19:28:05.501630Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1811
+[2m2026-03-28T19:28:06.227837Z[0m [32m INFO[0m Price update received: sol/usd 1774726085000 83133198894290705000
+[2m2026-03-28T19:28:06.228979Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1812
+[2m2026-03-28T19:28:06.229077Z[0m [32m INFO[0m Price update received: bnb/usd 1774726085000 615731447378638600000
+[2m2026-03-28T19:28:06.230055Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1813
+[2m2026-03-28T19:28:06.230132Z[0m [32m INFO[0m Price update received: xrp/usd 1774726085000 1343690571103748700
+[2m2026-03-28T19:28:06.231073Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1814
+[2m2026-03-28T19:28:06.251878Z[0m [32m INFO[0m Price update received: hype/usd 1774726085000 39851119995837706000
+[2m2026-03-28T19:28:06.253315Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1815
+[2m2026-03-28T19:28:06.281929Z[0m [32m INFO[0m Price update received: eth/usd 1774726085000 2018629668648845550000
+[2m2026-03-28T19:28:06.282990Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1816
+[2m2026-03-28T19:28:06.297619Z[0m [32m INFO[0m Price update received: btc/usd 1774726085000 66805800000000000000000
+[2m2026-03-28T19:28:06.298421Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1817
+[2m2026-03-28T19:28:06.372274Z[0m [32m INFO[0m Price update received: doge/usd 1774726085000 92033000000000000
+[2m2026-03-28T19:28:06.373271Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1818
+[2m2026-03-28T19:28:07.319309Z[0m [32m INFO[0m Price update received: xrp/usd 1774726086000 1343676328675810200
+[2m2026-03-28T19:28:07.320468Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1819
+[2m2026-03-28T19:28:07.327944Z[0m [32m INFO[0m Price update received: doge/usd 1774726086000 92033600000000000
+[2m2026-03-28T19:28:07.328732Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1820
+[2m2026-03-28T19:28:07.376322Z[0m [32m INFO[0m Price update received: btc/usd 1774726086000 66805962190000000000000
+[2m2026-03-28T19:28:07.377301Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1821
+[2m2026-03-28T19:28:07.405464Z[0m [32m INFO[0m Price update received: hype/usd 1774726086000 39851101218928510000
+[2m2026-03-28T19:28:07.406610Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1822
+[2m2026-03-28T19:28:07.407956Z[0m [32m INFO[0m Price update received: eth/usd 1774726086000 2018619634321405200000
+[2m2026-03-28T19:28:07.408603Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1823
+[2m2026-03-28T19:28:07.439229Z[0m [32m INFO[0m Price update received: sol/usd 1774726086000 83131560000000000000
+[2m2026-03-28T19:28:07.440230Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1824
+[2m2026-03-28T19:28:07.458415Z[0m [32m INFO[0m Price update received: bnb/usd 1774726086000 615731447378638600000
+[2m2026-03-28T19:28:07.459014Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1825
+[2m2026-03-28T19:28:07.905606Z[0m [32m INFO[0m Price update received: sol/usd 1774726087000 83133835659236805000
+[2m2026-03-28T19:28:07.906728Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1826
+[2m2026-03-28T19:28:07.921619Z[0m [32m INFO[0m Price update received: xrp/usd 1774726087000 1343675980514602200
+[2m2026-03-28T19:28:07.922527Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1827
+[2m2026-03-28T19:28:07.924821Z[0m [32m INFO[0m Price update received: bnb/usd 1774726087000 615731447378638600000
+[2m2026-03-28T19:28:07.925774Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1828
+[2m2026-03-28T19:28:07.948023Z[0m [32m INFO[0m Price update received: doge/usd 1774726087000 92033000000000000
+[2m2026-03-28T19:28:07.948899Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1829
+[2m2026-03-28T19:28:08.011383Z[0m [32m INFO[0m Price update received: hype/usd 1774726087000 39851101195189635000
+[2m2026-03-28T19:28:08.012531Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1830
+[2m2026-03-28T19:28:08.050135Z[0m [32m INFO[0m Price update received: btc/usd 1774726087000 66805252730000000000000
+[2m2026-03-28T19:28:08.051136Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1831
+[2m2026-03-28T19:28:08.051242Z[0m [32m INFO[0m Price update received: eth/usd 1774726087000 2018632002772119200000
+[2m2026-03-28T19:28:08.051924Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1832
+[2m2026-03-28T19:28:09.709332Z[0m [32m INFO[0m Price update received: eth/usd 1774726088000 2018631854521921300000
+[2m2026-03-28T19:28:09.710682Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1833
+[2m2026-03-28T19:28:09.716036Z[0m [32m INFO[0m Price update received: btc/usd 1774726088000 66805224410000000000000
+[2m2026-03-28T19:28:09.716821Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1834
+[2m2026-03-28T19:28:09.732652Z[0m [32m INFO[0m Price update received: bnb/usd 1774726088000 615731447378638600000
+[2m2026-03-28T19:28:09.733741Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1835
+[2m2026-03-28T19:28:09.780218Z[0m [32m INFO[0m Price update received: doge/usd 1774726088000 92032800000000000
+[2m2026-03-28T19:28:09.781323Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1836
+[2m2026-03-28T19:28:09.786007Z[0m [32m INFO[0m Price update received: hype/usd 1774726088000 39850673344980070000
+[2m2026-03-28T19:28:09.786755Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1837
+[2m2026-03-28T19:28:09.791236Z[0m [32m INFO[0m Price update received: xrp/usd 1774726088000 1343676555076577700
+[2m2026-03-28T19:28:09.792173Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1838
+[2m2026-03-28T19:28:09.803785Z[0m [32m INFO[0m Price update received: sol/usd 1774726088000 83133677923304970000
+[2m2026-03-28T19:28:09.804646Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1839
+[2m2026-03-28T19:28:10.468097Z[0m [32m INFO[0m Price update received: btc/usd 1774726089000 66805220630000000000000
+[2m2026-03-28T19:28:10.469161Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1840
+[2m2026-03-28T19:28:10.472579Z[0m [32m INFO[0m Price update received: xrp/usd 1774726089000 1343676655624826800
+[2m2026-03-28T19:28:10.473255Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1841
+[2m2026-03-28T19:28:10.486118Z[0m [32m INFO[0m Price update received: sol/usd 1774726089000 83133737159534500000
+[2m2026-03-28T19:28:10.487035Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1842
+[2m2026-03-28T19:28:10.495437Z[0m [32m INFO[0m Price update received: eth/usd 1774726089000 2018632575382085800000
+[2m2026-03-28T19:28:10.496023Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1843
+[2m2026-03-28T19:28:10.508444Z[0m [32m INFO[0m Price update received: bnb/usd 1774726089000 615731447378638600000
+[2m2026-03-28T19:28:10.509352Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1844
+[2m2026-03-28T19:28:10.511148Z[0m [32m INFO[0m Price update received: doge/usd 1774726089000 92032800000000000
+[2m2026-03-28T19:28:10.511704Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1845
+[2m2026-03-28T19:28:10.530826Z[0m [32m INFO[0m Price update received: hype/usd 1774726089000 39850673344980070000
+[2m2026-03-28T19:28:10.531863Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1846
+[2m2026-03-28T19:28:11.171785Z[0m [32m INFO[0m Price update received: eth/usd 1774726090000 2018632453490266200000
+[2m2026-03-28T19:28:11.173212Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1847
+[2m2026-03-28T19:28:11.173650Z[0m [32m INFO[0m Price update received: hype/usd 1774726090000 39850673344980070000
+[2m2026-03-28T19:28:11.174244Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1848
+[2m2026-03-28T19:28:11.188787Z[0m [32m INFO[0m Price update received: bnb/usd 1774726090000 615731447378638600000
+[2m2026-03-28T19:28:11.189722Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1849
+[2m2026-03-28T19:28:11.248649Z[0m [32m INFO[0m Price update received: sol/usd 1774726090000 83133741307053335000
+[2m2026-03-28T19:28:11.249662Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1850
+[2m2026-03-28T19:28:11.256009Z[0m [32m INFO[0m Price update received: doge/usd 1774726090000 92033000000000000
+[2m2026-03-28T19:28:11.256739Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1851
+[2m2026-03-28T19:28:11.257338Z[0m [32m INFO[0m Price update received: xrp/usd 1774726090000 1343677187488280500
+[2m2026-03-28T19:28:11.258216Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1852
+[2m2026-03-28T19:28:11.258923Z[0m [32m INFO[0m Price update received: btc/usd 1774726090000 66805228030000000000000
+[2m2026-03-28T19:28:11.259318Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1853
+[2m2026-03-28T19:28:12.346252Z[0m [32m INFO[0m Price update received: xrp/usd 1774726091000 1343677849751575000
+[2m2026-03-28T19:28:12.347619Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1854
+[2m2026-03-28T19:28:12.347688Z[0m [32m INFO[0m Price update received: eth/usd 1774726091000 2018637148345919150000
+[2m2026-03-28T19:28:12.348632Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1855
+[2m2026-03-28T19:28:12.370463Z[0m [32m INFO[0m Price update received: bnb/usd 1774726091000 615731447378638600000
+[2m2026-03-28T19:28:12.371506Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1856
+[2m2026-03-28T19:28:12.394236Z[0m [32m INFO[0m Price update received: sol/usd 1774726091000 83135778879130980000
+[2m2026-03-28T19:28:12.395174Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1857
+[2m2026-03-28T19:28:12.397627Z[0m [32m INFO[0m Price update received: hype/usd 1774726091000 39850810033091830000
+[2m2026-03-28T19:28:12.398447Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1858
+[2m2026-03-28T19:28:12.406183Z[0m [32m INFO[0m Price update received: doge/usd 1774726091000 92032800000000000
+[2m2026-03-28T19:28:12.407074Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1859
+[2m2026-03-28T19:28:12.411333Z[0m [32m INFO[0m Price update received: btc/usd 1774726091000 66805039300000000000000
+[2m2026-03-28T19:28:12.411994Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1860
+[2m2026-03-28T19:28:13.173962Z[0m [32m INFO[0m Price update received: sol/usd 1774726092000 83140213478651700000
+[2m2026-03-28T19:28:13.175224Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1861
+[2m2026-03-28T19:28:13.183344Z[0m [32m INFO[0m Price update received: xrp/usd 1774726092000 1343677720593123300
+[2m2026-03-28T19:28:13.184185Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1862
+[2m2026-03-28T19:28:13.221573Z[0m [32m INFO[0m Price update received: eth/usd 1774726092000 2018636978693108850000
+[2m2026-03-28T19:28:13.222218Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1863
+[2m2026-03-28T19:28:13.231586Z[0m [32m INFO[0m Price update received: btc/usd 1774726092000 66805034610000000000000
+[2m2026-03-28T19:28:13.232590Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1864
+[2m2026-03-28T19:28:13.246253Z[0m [32m INFO[0m Price update received: hype/usd 1774726092000 39850850366092680000
+[2m2026-03-28T19:28:13.247212Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1865
+[2m2026-03-28T19:28:13.279900Z[0m [32m INFO[0m Price update received: doge/usd 1774726092000 92032800000000000
+[2m2026-03-28T19:28:13.280909Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1866
+[2m2026-03-28T19:28:13.376645Z[0m [32m INFO[0m Price update received: bnb/usd 1774726092000 615728146827982200000
+[2m2026-03-28T19:28:13.379014Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1867
+[2m2026-03-28T19:28:14.716963Z[0m [32m INFO[0m Price update received: bnb/usd 1774726093000 615730347195086400000
+[2m2026-03-28T19:28:14.718317Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1868
+[2m2026-03-28T19:28:14.719846Z[0m [32m INFO[0m Price update received: sol/usd 1774726093000 83140468599962035000
+[2m2026-03-28T19:28:14.720705Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1869
+[2m2026-03-28T19:28:14.720807Z[0m [32m INFO[0m Price update received: hype/usd 1774726093000 39852715608362290000
+[2m2026-03-28T19:28:14.721346Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1870
+[2m2026-03-28T19:28:14.732398Z[0m [32m INFO[0m Price update received: eth/usd 1774726093000 2018636750527272500000
+[2m2026-03-28T19:28:14.733219Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1871
+[2m2026-03-28T19:28:14.745919Z[0m [32m INFO[0m Price update received: doge/usd 1774726093000 92033200000000000
+[2m2026-03-28T19:28:14.746758Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1872
+[2m2026-03-28T19:28:14.787660Z[0m [32m INFO[0m Price update received: btc/usd 1774726093000 66805150120000000000000
+[2m2026-03-28T19:28:14.788430Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1873
+[2m2026-03-28T19:28:14.788479Z[0m [32m INFO[0m Price update received: xrp/usd 1774726093000 1343688796296389000
+[2m2026-03-28T19:28:14.789350Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1874
+[2m2026-03-28T19:28:15.366870Z[0m [32m INFO[0m Price update received: bnb/usd 1774726094000 615730347195086400000
+[2m2026-03-28T19:28:15.368232Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1875
+[2m2026-03-28T19:28:15.373444Z[0m [32m INFO[0m Price update received: eth/usd 1774726094000 2018661726763343000000
+[2m2026-03-28T19:28:15.374310Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1876
+[2m2026-03-28T19:28:15.378716Z[0m [32m INFO[0m Price update received: sol/usd 1774726094000 83140423599962035000
+[2m2026-03-28T19:28:15.379603Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1877
+[2m2026-03-28T19:28:15.384472Z[0m [32m INFO[0m Price update received: hype/usd 1774726094000 39852715457042510000
+[2m2026-03-28T19:28:15.385178Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1878
+[2m2026-03-28T19:28:15.408745Z[0m [32m INFO[0m Price update received: doge/usd 1774726094000 92033200000000000
+[2m2026-03-28T19:28:15.409691Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1879
+[2m2026-03-28T19:28:15.449338Z[0m [32m INFO[0m Price update received: xrp/usd 1774726094000 1343690953835001000
+[2m2026-03-28T19:28:15.450317Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1880
+[2m2026-03-28T19:28:15.543928Z[0m [32m INFO[0m Price update received: btc/usd 1774726094000 66805151630000000000000
+[2m2026-03-28T19:28:15.545009Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1881
+[2m2026-03-28T19:28:16.158422Z[0m [32m INFO[0m Price update received: doge/usd 1774726095000 92033200000000000
+[2m2026-03-28T19:28:16.159724Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1882
+[2m2026-03-28T19:28:16.166927Z[0m [32m INFO[0m Price update received: eth/usd 1774726095000 2018661780935135050000
+[2m2026-03-28T19:28:16.167855Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1883
+[2m2026-03-28T19:28:16.184777Z[0m [32m INFO[0m Price update received: sol/usd 1774726095000 83140361662709890000
+[2m2026-03-28T19:28:16.185734Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1884
+[2m2026-03-28T19:28:16.185806Z[0m [32m INFO[0m Price update received: btc/usd 1774726095000 66805165360000000000000
+[2m2026-03-28T19:28:16.186674Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1885
+[2m2026-03-28T19:28:16.186737Z[0m [32m INFO[0m Price update received: xrp/usd 1774726095000 1343690953835001000
+[2m2026-03-28T19:28:16.187283Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1886
+[2m2026-03-28T19:28:16.243389Z[0m [32m INFO[0m Price update received: bnb/usd 1774726095000 615730347195086400000
+[2m2026-03-28T19:28:16.244449Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1887
+[2m2026-03-28T19:28:16.253082Z[0m [32m INFO[0m Price update received: hype/usd 1774726095000 39852712640188310000
+[2m2026-03-28T19:28:16.254024Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1888
+[2m2026-03-28T19:28:17.525775Z[0m [32m INFO[0m Price update received: bnb/usd 1774726096000 615728146827982200000
+[2m2026-03-28T19:28:17.527117Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1889
+[2m2026-03-28T19:28:17.527222Z[0m [32m INFO[0m Price update received: hype/usd 1774726096000 39852834207582490000
+[2m2026-03-28T19:28:17.527851Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1890
+[2m2026-03-28T19:28:17.532308Z[0m [32m INFO[0m Price update received: eth/usd 1774726096000 2018630274862866500000
+[2m2026-03-28T19:28:17.532916Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1891
+[2m2026-03-28T19:28:17.552086Z[0m [32m INFO[0m Price update received: sol/usd 1774726096000 83140408502428450000
+[2m2026-03-28T19:28:17.553038Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1892
+[2m2026-03-28T19:28:17.587096Z[0m [32m INFO[0m Price update received: doge/usd 1774726096000 92033000000000000
+[2m2026-03-28T19:28:17.587926Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1893
+[2m2026-03-28T19:28:17.587983Z[0m [32m INFO[0m Price update received: xrp/usd 1774726096000 1343676255581982800
+[2m2026-03-28T19:28:17.588877Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1894
+[2m2026-03-28T19:28:17.600730Z[0m [32m INFO[0m Price update received: btc/usd 1774726096000 66805049880000000000000
+[2m2026-03-28T19:28:17.601801Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1895
+[2m2026-03-28T19:28:18.170515Z[0m [32m INFO[0m Price update received: hype/usd 1774726097000 39853113025262430000
+[2m2026-03-28T19:28:18.171701Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1896
+[2m2026-03-28T19:28:18.175915Z[0m [32m INFO[0m Price update received: bnb/usd 1774726097000 615728146827982200000
+[2m2026-03-28T19:28:18.176574Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1897
+[2m2026-03-28T19:28:18.180329Z[0m [32m INFO[0m Price update received: doge/usd 1774726097000 92033600000000000
+[2m2026-03-28T19:28:18.181218Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1898
+[2m2026-03-28T19:28:18.181281Z[0m [32m INFO[0m Price update received: sol/usd 1774726097000 83140490382449010000
+[2m2026-03-28T19:28:18.181842Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1899
+[2m2026-03-28T19:28:18.195972Z[0m [32m INFO[0m Price update received: eth/usd 1774726097000 2018630296078803300000
+[2m2026-03-28T19:28:18.196735Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1900
+[2m2026-03-28T19:28:18.197017Z[0m [32m INFO[0m Price update received: xrp/usd 1774726097000 1343676437931070300
+[2m2026-03-28T19:28:18.197799Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1901
+[2m2026-03-28T19:28:18.238091Z[0m [32m INFO[0m Price update received: btc/usd 1774726097000 66805825540000000000000
+[2m2026-03-28T19:28:18.239180Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1902
+[2m2026-03-28T19:28:19.612438Z[0m [32m INFO[0m Price update received: xrp/usd 1774726098000 1343676245470686500
+[2m2026-03-28T19:28:19.613878Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1903
+[2m2026-03-28T19:28:19.613994Z[0m [32m INFO[0m Price update received: doge/usd 1774726098000 92035200000000000
+[2m2026-03-28T19:28:19.614606Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1904
+[2m2026-03-28T19:28:19.614843Z[0m [32m INFO[0m Price update received: eth/usd 1774726098000 2018630321677432100000
+[2m2026-03-28T19:28:19.615303Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1905
+[2m2026-03-28T19:28:19.615362Z[0m [32m INFO[0m Price update received: bnb/usd 1774726098000 615728146827982200000
+[2m2026-03-28T19:28:19.615831Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1906
+[2m2026-03-28T19:28:19.622554Z[0m [32m INFO[0m Price update received: btc/usd 1774726098000 66805866580000000000000
+[2m2026-03-28T19:28:19.623214Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1907
+[2m2026-03-28T19:28:19.640811Z[0m [32m INFO[0m Price update received: hype/usd 1774726098000 39853147348680660000
+[2m2026-03-28T19:28:19.641655Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1908
+[2m2026-03-28T19:28:19.687751Z[0m [32m INFO[0m Price update received: sol/usd 1774726098000 83140844856595530000
+[2m2026-03-28T19:28:19.688890Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1909
+[2m2026-03-28T19:28:20.236932Z[0m [32m INFO[0m Price update received: bnb/usd 1774726099000 615729247011534300000
+[2m2026-03-28T19:28:20.245899Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1910
+[2m2026-03-28T19:28:20.246076Z[0m [32m INFO[0m Price update received: eth/usd 1774726099000 2018630351812438300000
+[2m2026-03-28T19:28:20.251700Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1911
+[2m2026-03-28T19:28:20.251820Z[0m [32m INFO[0m Price update received: sol/usd 1774726099000 83140869856595530000
+[2m2026-03-28T19:28:20.252546Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1912
+[2m2026-03-28T19:28:20.256545Z[0m [32m INFO[0m Price update received: hype/usd 1774726099000 39852038952332490000
+[2m2026-03-28T19:28:20.258325Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1913
+[2m2026-03-28T19:28:20.258414Z[0m [32m INFO[0m Price update received: btc/usd 1774726099000 66805844060000000000000
+[2m2026-03-28T19:28:20.259041Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1914
+[2m2026-03-28T19:28:20.267725Z[0m [32m INFO[0m Price update received: doge/usd 1774726099000 92035627312225210
+[2m2026-03-28T19:28:20.268915Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1915
+[2m2026-03-28T19:28:20.275821Z[0m [32m INFO[0m Price update received: xrp/usd 1774726099000 1343676495470686500
+[2m2026-03-28T19:28:20.277087Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1916
+[2m2026-03-28T19:28:21.604215Z[0m [32m INFO[0m Price update received: bnb/usd 1774726100000 615729247011534300000
+[2m2026-03-28T19:28:21.605621Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1917
+[2m2026-03-28T19:28:21.616897Z[0m [32m INFO[0m Price update received: hype/usd 1774726100000 39852671773063946000
+[2m2026-03-28T19:28:21.617625Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1918
+[2m2026-03-28T19:28:21.619082Z[0m [32m INFO[0m Price update received: eth/usd 1774726100000 2018631788673543700000
+[2m2026-03-28T19:28:21.620195Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1919
+[2m2026-03-28T19:28:21.630574Z[0m [32m INFO[0m Price update received: doge/usd 1774726100000 92034000000000000
+[2m2026-03-28T19:28:21.631321Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1920
+[2m2026-03-28T19:28:21.664897Z[0m [32m INFO[0m Price update received: btc/usd 1774726100000 66805021660000000000000
+[2m2026-03-28T19:28:21.665961Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1921
+[2m2026-03-28T19:28:21.672137Z[0m [32m INFO[0m Price update received: sol/usd 1774726100000 83140705102716755000
+[2m2026-03-28T19:28:21.673152Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1922
+[2m2026-03-28T19:28:21.686701Z[0m [32m INFO[0m Price update received: xrp/usd 1774726100000 1343675493783620800
+[2m2026-03-28T19:28:21.687614Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1923
+[2m2026-03-28T19:28:22.180183Z[0m [32m INFO[0m Price update received: bnb/usd 1774726101000 615729247011534300000
+[2m2026-03-28T19:28:22.181461Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1924
+[2m2026-03-28T19:28:22.186643Z[0m [32m INFO[0m Price update received: sol/usd 1774726101000 83140694075732885000
+[2m2026-03-28T19:28:22.187548Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1925
+[2m2026-03-28T19:28:22.187627Z[0m [32m INFO[0m Price update received: hype/usd 1774726101000 39852976986910930000
+[2m2026-03-28T19:28:22.188618Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1926
+[2m2026-03-28T19:28:22.212319Z[0m [32m INFO[0m Price update received: btc/usd 1774726101000 66805021850000000000000
+[2m2026-03-28T19:28:22.213143Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1927
+[2m2026-03-28T19:28:22.213749Z[0m [32m INFO[0m Price update received: doge/usd 1774726101000 92033700000000000
+[2m2026-03-28T19:28:22.214680Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1928
+[2m2026-03-28T19:28:22.218520Z[0m [32m INFO[0m Price update received: eth/usd 1774726101000 2018630968464219900000
+[2m2026-03-28T19:28:22.219378Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1929
+[2m2026-03-28T19:28:22.242777Z[0m [32m INFO[0m Price update received: xrp/usd 1774726101000 1343675493783620800
+[2m2026-03-28T19:28:22.243589Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1930
+[2m2026-03-28T19:28:23.641068Z[0m [32m INFO[0m Price update received: bnb/usd 1774726102000 615728146827982200000
+[2m2026-03-28T19:28:23.642551Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1931
+[2m2026-03-28T19:28:23.658460Z[0m [32m INFO[0m Price update received: doge/usd 1774726102000 92034000000000000
+[2m2026-03-28T19:28:23.659301Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1932
+[2m2026-03-28T19:28:23.673225Z[0m [32m INFO[0m Price update received: xrp/usd 1774726102000 1343675085841639300
+[2m2026-03-28T19:28:23.673938Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1933
+[2m2026-03-28T19:28:23.689514Z[0m [32m INFO[0m Price update received: sol/usd 1774726102000 83140823080791210000
+[2m2026-03-28T19:28:23.690409Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1934
+[2m2026-03-28T19:28:23.718808Z[0m [32m INFO[0m Price update received: btc/usd 1774726102000 66805520000000000000000
+[2m2026-03-28T19:28:23.719706Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1935
+[2m2026-03-28T19:28:23.721627Z[0m [32m INFO[0m Price update received: eth/usd 1774726102000 2018634242363662200000
+[2m2026-03-28T19:28:23.722237Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1936
+[2m2026-03-28T19:28:23.733180Z[0m [32m INFO[0m Price update received: hype/usd 1774726102000 39852961485929750000
+[2m2026-03-28T19:28:23.733982Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1937
+[2m2026-03-28T19:28:24.288427Z[0m [32m INFO[0m Price update received: bnb/usd 1774726103000 615728146827982200000
+[2m2026-03-28T19:28:24.289710Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1938
+[2m2026-03-28T19:28:24.289776Z[0m [32m INFO[0m Price update received: eth/usd 1774726103000 2018634177038112850000
+[2m2026-03-28T19:28:24.290392Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1939
+[2m2026-03-28T19:28:24.305947Z[0m [32m INFO[0m Price update received: hype/usd 1774726103000 39852927068089905000
+[2m2026-03-28T19:28:24.306530Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1940
+[2m2026-03-28T19:28:24.318605Z[0m [32m INFO[0m Price update received: xrp/usd 1774726103000 1343673976034790700
+[2m2026-03-28T19:28:24.319195Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1941
+[2m2026-03-28T19:28:24.319271Z[0m [32m INFO[0m Price update received: btc/usd 1774726103000 66804935120000000000000
+[2m2026-03-28T19:28:24.319780Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1942
+[2m2026-03-28T19:28:24.339175Z[0m [32m INFO[0m Price update received: doge/usd 1774726103000 92033400000000000
+[2m2026-03-28T19:28:24.339868Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1943
+[2m2026-03-28T19:28:24.364350Z[0m [32m INFO[0m Price update received: sol/usd 1774726103000 83140651801425585000
+[2m2026-03-28T19:28:24.365390Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1944
+[2m2026-03-28T19:28:25.586351Z[0m [32m INFO[0m Price update received: bnb/usd 1774726104000 615728146827982200000
+[2m2026-03-28T19:28:25.587583Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1945
+[2m2026-03-28T19:28:25.602257Z[0m [32m INFO[0m Price update received: sol/usd 1774726104000 83140246941591550000
+[2m2026-03-28T19:28:25.602973Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1946
+[2m2026-03-28T19:28:25.607412Z[0m [32m INFO[0m Price update received: eth/usd 1774726104000 2018633419480652000000
+[2m2026-03-28T19:28:25.608431Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1947
+[2m2026-03-28T19:28:25.609649Z[0m [32m INFO[0m Price update received: btc/usd 1774726104000 66804918820000000000000
+[2m2026-03-28T19:28:25.610079Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1948
+[2m2026-03-28T19:28:25.628674Z[0m [32m INFO[0m Price update received: hype/usd 1774726104000 39852923765870820000
+[2m2026-03-28T19:28:25.629403Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1949
+[2m2026-03-28T19:28:25.635401Z[0m [32m INFO[0m Price update received: xrp/usd 1774726104000 1343673980471123000
+[2m2026-03-28T19:28:25.636360Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1950
+[2m2026-03-28T19:28:25.637108Z[0m [32m INFO[0m Price update received: doge/usd 1774726104000 92033400000000000
+[2m2026-03-28T19:28:25.637712Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1951
+[2m2026-03-28T19:28:25.907467Z[0m [32m INFO[0m Price update received: sol/usd 1774726105000 83140204298032605000
+[2m2026-03-28T19:28:25.908388Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1952
+[2m2026-03-28T19:28:25.944347Z[0m [32m INFO[0m Price update received: bnb/usd 1774726105000 615728146827982200000
+[2m2026-03-28T19:28:25.945236Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1953
+[2m2026-03-28T19:28:26.174415Z[0m [32m INFO[0m Price update received: eth/usd 1774726105000 2018633584000564850000
+[2m2026-03-28T19:28:26.175470Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1954
+[2m2026-03-28T19:28:26.184132Z[0m [32m INFO[0m Price update received: btc/usd 1774726105000 66804934580000000000000
+[2m2026-03-28T19:28:26.185060Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1955
+[2m2026-03-28T19:28:26.187514Z[0m [32m INFO[0m Price update received: hype/usd 1774726105000 39852691697624240000
+[2m2026-03-28T19:28:26.188389Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1956
+[2m2026-03-28T19:28:26.203188Z[0m [32m INFO[0m Price update received: xrp/usd 1774726105000 1343673972626474800
+[2m2026-03-28T19:28:26.204011Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1957
+[2m2026-03-28T19:28:26.222283Z[0m [32m INFO[0m Price update received: doge/usd 1774726105000 92033300000000000
+[2m2026-03-28T19:28:26.222846Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1958
+[2m2026-03-28T19:28:26.996520Z[0m [32m INFO[0m Price update received: bnb/usd 1774726106000 615728146827982200000
+[2m2026-03-28T19:28:26.997547Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1959
+[2m2026-03-28T19:28:27.006370Z[0m [32m INFO[0m Price update received: hype/usd 1774726106000 39852691697624240000
+[2m2026-03-28T19:28:27.006975Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1960
+[2m2026-03-28T19:28:27.030635Z[0m [32m INFO[0m Price update received: sol/usd 1774726106000 83138861972560940000
+[2m2026-03-28T19:28:27.031803Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1961
+[2m2026-03-28T19:28:27.076490Z[0m [32m INFO[0m Price update received: xrp/usd 1774726106000 1343673732584508900
+[2m2026-03-28T19:28:27.077494Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1962
+[2m2026-03-28T19:28:27.084487Z[0m [32m INFO[0m Price update received: eth/usd 1774726106000 2018633463577914300000
+[2m2026-03-28T19:28:27.085236Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1963
+[2m2026-03-28T19:28:27.112978Z[0m [32m INFO[0m Price update received: doge/usd 1774726106000 92031245771564050
+[2m2026-03-28T19:28:27.113952Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1964
+[2m2026-03-28T19:28:27.125283Z[0m [32m INFO[0m Price update received: btc/usd 1774726106000 66805500000000000000000
+[2m2026-03-28T19:28:27.125999Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1965
+[2m2026-03-28T19:28:28.100629Z[0m [32m INFO[0m Price update received: bnb/usd 1774726107000 615728146827982200000
+[2m2026-03-28T19:28:28.101878Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1966
+[2m2026-03-28T19:28:28.106757Z[0m [32m INFO[0m Price update received: eth/usd 1774726107000 2018612160345080500000
+[2m2026-03-28T19:28:28.107688Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1967
+[2m2026-03-28T19:28:28.113870Z[0m [32m INFO[0m Price update received: doge/usd 1774726107000 92033000000000000
+[2m2026-03-28T19:28:28.114745Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1968
+[2m2026-03-28T19:28:28.146714Z[0m [32m INFO[0m Price update received: sol/usd 1774726107000 83138748373991070000
+[2m2026-03-28T19:28:28.147707Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1969
+[2m2026-03-28T19:28:28.155775Z[0m [32m INFO[0m Price update received: xrp/usd 1774726107000 1343677850000000000
+[2m2026-03-28T19:28:28.156553Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1970
+[2m2026-03-28T19:28:28.182663Z[0m [32m INFO[0m Price update received: btc/usd 1774726107000 66804917800000000000000
+[2m2026-03-28T19:28:28.183626Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1971
+[2m2026-03-28T19:28:28.213032Z[0m [32m INFO[0m Price update received: hype/usd 1774726107000 39852718662826070000
+[2m2026-03-28T19:28:28.213863Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1972
+[2m2026-03-28T19:28:29.124762Z[0m [32m INFO[0m Price update received: sol/usd 1774726108000 83138748373991070000
+[2m2026-03-28T19:28:29.126263Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1973
+[2m2026-03-28T19:28:29.134088Z[0m [32m INFO[0m Price update received: xrp/usd 1774726108000 1343681600000000000
+[2m2026-03-28T19:28:29.134857Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1974
+[2m2026-03-28T19:28:29.145070Z[0m [32m INFO[0m Price update received: bnb/usd 1774726108000 615728146827982200000
+[2m2026-03-28T19:28:29.146019Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1975
+[2m2026-03-28T19:28:29.149949Z[0m [32m INFO[0m Price update received: btc/usd 1774726108000 66804922590000000000000
+[2m2026-03-28T19:28:29.150591Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1976
+[2m2026-03-28T19:28:29.153544Z[0m [32m INFO[0m Price update received: doge/usd 1774726108000 92033100000000000
+[2m2026-03-28T19:28:29.154339Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1977
+[2m2026-03-28T19:28:29.175412Z[0m [32m INFO[0m Price update received: hype/usd 1774726108000 39852718593183930000
+[2m2026-03-28T19:28:29.176423Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1978
+[2m2026-03-28T19:28:29.179189Z[0m [32m INFO[0m Price update received: eth/usd 1774726108000 2018622351221423200000
+[2m2026-03-28T19:28:29.179922Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1979
+[2m2026-03-28T19:28:30.276908Z[0m [32m INFO[0m Price update received: eth/usd 1774726109000 2018622364548778400000
+[2m2026-03-28T19:28:30.278149Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1980
+[2m2026-03-28T19:28:30.283161Z[0m [32m INFO[0m Price update received: xrp/usd 1774726109000 1343687150000000000
+[2m2026-03-28T19:28:30.283797Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1981
+[2m2026-03-28T19:28:30.323178Z[0m [32m INFO[0m Price update received: doge/usd 1774726109000 92033200000000000
+[2m2026-03-28T19:28:30.323849Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1982
+[2m2026-03-28T19:28:30.323905Z[0m [32m INFO[0m Price update received: sol/usd 1774726109000 83138753373991070000
+[2m2026-03-28T19:28:30.324636Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1983
+[2m2026-03-28T19:28:30.353631Z[0m [32m INFO[0m Price update received: hype/usd 1774726109000 39853259812556430000
+[2m2026-03-28T19:28:30.354353Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1984
+[2m2026-03-28T19:28:30.402931Z[0m [32m INFO[0m Price update received: btc/usd 1774726109000 66804891840000000000000
+[2m2026-03-28T19:28:30.404103Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1985
+[2m2026-03-28T19:28:30.407746Z[0m [32m INFO[0m Price update received: bnb/usd 1774726109000 615728146827982200000
+[2m2026-03-28T19:28:30.408545Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1986
+[2m2026-03-28T19:28:31.323846Z[0m [32m INFO[0m Price update received: xrp/usd 1774726110000 1343681450000000000
+[2m2026-03-28T19:28:31.325066Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1987
+[2m2026-03-28T19:28:31.371914Z[0m [32m INFO[0m Price update received: doge/usd 1774726110000 92033100000000000
+[2m2026-03-28T19:28:31.372945Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1988
+[2m2026-03-28T19:28:31.374490Z[0m [32m INFO[0m Price update received: bnb/usd 1774726110000 615728146827982200000
+[2m2026-03-28T19:28:31.374996Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1989
+[2m2026-03-28T19:28:31.380656Z[0m [32m INFO[0m Price update received: sol/usd 1774726110000 83138741358469640000
+[2m2026-03-28T19:28:31.381481Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1990
+[2m2026-03-28T19:28:31.403755Z[0m [32m INFO[0m Price update received: btc/usd 1774726110000 66804876690000000000000
+[2m2026-03-28T19:28:31.404710Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1991
+[2m2026-03-28T19:28:31.407089Z[0m [32m INFO[0m Price update received: eth/usd 1774726110000 2018622621766902750000
+[2m2026-03-28T19:28:31.407793Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1992
+[2m2026-03-28T19:28:31.470045Z[0m [32m INFO[0m Price update received: hype/usd 1774726110000 39853165264819190000
+[2m2026-03-28T19:28:31.471178Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1993
+[2m2026-03-28T19:28:31.879639Z[0m [32m INFO[0m Price update received: sol/usd 1774726111000 83138971507570045000
+[2m2026-03-28T19:28:31.880875Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1994
+[2m2026-03-28T19:28:31.880993Z[0m [32m INFO[0m Price update received: eth/usd 1774726111000 2018622641957210400000
+[2m2026-03-28T19:28:31.881914Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1995
+[2m2026-03-28T19:28:31.894548Z[0m [32m INFO[0m Price update received: doge/usd 1774726111000 92033100000000000
+[2m2026-03-28T19:28:31.895356Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1996
+[2m2026-03-28T19:28:31.897399Z[0m [32m INFO[0m Price update received: btc/usd 1774726111000 66804871340000000000000
+[2m2026-03-28T19:28:31.898332Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1997
+[2m2026-03-28T19:28:31.908245Z[0m [32m INFO[0m Price update received: xrp/usd 1774726111000 1343680750000000000
+[2m2026-03-28T19:28:31.909163Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1998
+[2m2026-03-28T19:28:31.932506Z[0m [32m INFO[0m Price update received: hype/usd 1774726111000 39853165191818910000
+[2m2026-03-28T19:28:31.933630Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 1999
+[2m2026-03-28T19:28:31.963937Z[0m [32m INFO[0m Price update received: bnb/usd 1774726111000 615728146827982200000
+[2m2026-03-28T19:28:31.964990Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2000
+[2m2026-03-28T19:28:32.979147Z[0m [32m INFO[0m Price update received: sol/usd 1774726112000 83139195247576085000
+[2m2026-03-28T19:28:32.980648Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2001
+[2m2026-03-28T19:28:32.988486Z[0m [32m INFO[0m Price update received: bnb/usd 1774726112000 615731447378638600000
+[2m2026-03-28T19:28:32.989579Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2002
+[2m2026-03-28T19:28:33.010092Z[0m [32m INFO[0m Price update received: eth/usd 1774726112000 2018622793008520050000
+[2m2026-03-28T19:28:33.011134Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2003
+[2m2026-03-28T19:28:33.019258Z[0m [32m INFO[0m Price update received: btc/usd 1774726112000 66803460000000000000000
+[2m2026-03-28T19:28:33.019958Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2004
+[2m2026-03-28T19:28:33.029262Z[0m [32m INFO[0m Price update received: xrp/usd 1774726112000 1343679675915101500
+[2m2026-03-28T19:28:33.030161Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2005
+[2m2026-03-28T19:28:33.067460Z[0m [32m INFO[0m Price update received: hype/usd 1774726112000 39853183642594765000
+[2m2026-03-28T19:28:33.068660Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2006
+[2m2026-03-28T19:28:33.069106Z[0m [32m INFO[0m Price update received: doge/usd 1774726112000 92033100000000000
+[2m2026-03-28T19:28:33.069603Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2007
+[2m2026-03-28T19:28:34.027342Z[0m [32m INFO[0m Price update received: hype/usd 1774726113000 39853864730255374000
+[2m2026-03-28T19:28:34.028594Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2008
+[2m2026-03-28T19:28:34.031926Z[0m [32m INFO[0m Price update received: doge/usd 1774726113000 92033600000000000
+[2m2026-03-28T19:28:34.032648Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2009
+[2m2026-03-28T19:28:34.046623Z[0m [32m INFO[0m Price update received: bnb/usd 1774726113000 615730347195086400000
+[2m2026-03-28T19:28:34.047546Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2010
+[2m2026-03-28T19:28:34.047680Z[0m [32m INFO[0m Price update received: xrp/usd 1774726113000 1343693200000000000
+[2m2026-03-28T19:28:34.048609Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2011
+[2m2026-03-28T19:28:34.049758Z[0m [32m INFO[0m Price update received: eth/usd 1774726113000 2018622814665977350000
+[2m2026-03-28T19:28:34.050510Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2012
+[2m2026-03-28T19:28:34.054741Z[0m [32m INFO[0m Price update received: btc/usd 1774726113000 66803460000000000000000
+[2m2026-03-28T19:28:34.055509Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2013
+[2m2026-03-28T19:28:34.066837Z[0m [32m INFO[0m Price update received: sol/usd 1774726113000 83139661107755470000
+[2m2026-03-28T19:28:34.067620Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2014
+[2m2026-03-28T19:28:35.042935Z[0m [32m INFO[0m Price update received: eth/usd 1774726114000 2018622963676623200000
+[2m2026-03-28T19:28:35.044602Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2015
+[2m2026-03-28T19:28:35.044712Z[0m [32m INFO[0m Price update received: bnb/usd 1774726114000 615730347195086400000
+[2m2026-03-28T19:28:35.045676Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2016
+[2m2026-03-28T19:28:35.046858Z[0m [32m INFO[0m Price update received: hype/usd 1774726114000 39853864730255374000
+[2m2026-03-28T19:28:35.047624Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2017
+[2m2026-03-28T19:28:35.049384Z[0m [32m INFO[0m Price update received: btc/usd 1774726114000 66803480000000000000000
+[2m2026-03-28T19:28:35.050265Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2018
+[2m2026-03-28T19:28:35.070147Z[0m [32m INFO[0m Price update received: sol/usd 1774726114000 83141703311119195000
+[2m2026-03-28T19:28:35.070828Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2019
+[2m2026-03-28T19:28:35.072022Z[0m [32m INFO[0m Price update received: xrp/usd 1774726114000 1343699011163261000
+[2m2026-03-28T19:28:35.072779Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2020
+[2m2026-03-28T19:28:35.097045Z[0m [32m INFO[0m Price update received: doge/usd 1774726114000 92033300000000000
+[2m2026-03-28T19:28:35.098080Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2021
+[2m2026-03-28T19:28:35.853077Z[0m [32m INFO[0m Price update received: doge/usd 1774726115000 92033900000000000
+[2m2026-03-28T19:28:35.854440Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2022
+[2m2026-03-28T19:28:35.855082Z[0m [32m INFO[0m Price update received: eth/usd 1774726115000 2018622965014537300000
+[2m2026-03-28T19:28:35.855640Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2023
+[2m2026-03-28T19:28:35.870830Z[0m [32m INFO[0m Price update received: xrp/usd 1774726115000 1343699097782981900
+[2m2026-03-28T19:28:35.871842Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2024
+[2m2026-03-28T19:28:35.896758Z[0m [32m INFO[0m Price update received: btc/usd 1774726115000 66803471414388530000000
+[2m2026-03-28T19:28:35.897840Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2025
+[2m2026-03-28T19:28:35.914418Z[0m [32m INFO[0m Price update received: bnb/usd 1774726115000 615730347195086400000
+[2m2026-03-28T19:28:35.915384Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2026
+[2m2026-03-28T19:28:35.916684Z[0m [32m INFO[0m Price update received: sol/usd 1774726115000 83141856058513335000
+[2m2026-03-28T19:28:35.917405Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2027
+[2m2026-03-28T19:28:36.012581Z[0m [32m INFO[0m Price update received: hype/usd 1774726115000 39853856637338950000
+[2m2026-03-28T19:28:36.013901Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2028
+[2m2026-03-28T19:28:36.928341Z[0m [32m INFO[0m Price update received: hype/usd 1774726116000 39853820638875830000
+[2m2026-03-28T19:28:36.929951Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2029
+[2m2026-03-28T19:28:36.936331Z[0m [32m INFO[0m Price update received: sol/usd 1774726116000 83141843478563325000
+[2m2026-03-28T19:28:36.937426Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2030
+[2m2026-03-28T19:28:36.937783Z[0m [32m INFO[0m Price update received: bnb/usd 1774726116000 615731447378638600000
+[2m2026-03-28T19:28:36.938371Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2031
+[2m2026-03-28T19:28:36.952764Z[0m [32m INFO[0m Price update received: eth/usd 1774726116000 2018622853506984300000
+[2m2026-03-28T19:28:36.953525Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2032
+[2m2026-03-28T19:28:36.960895Z[0m [32m INFO[0m Price update received: doge/usd 1774726116000 92034100000000000
+[2m2026-03-28T19:28:36.961582Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2033
+[2m2026-03-28T19:28:36.965202Z[0m [32m INFO[0m Price update received: btc/usd 1774726116000 66803450000000000000000
+[2m2026-03-28T19:28:36.966179Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2034
+[2m2026-03-28T19:28:36.991092Z[0m [32m INFO[0m Price update received: xrp/usd 1774726116000 1343699082715847300
+[2m2026-03-28T19:28:36.991891Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2035
+[2m2026-03-28T19:28:37.948461Z[0m [32m INFO[0m Price update received: bnb/usd 1774726117000 615731447378638600000
+[2m2026-03-28T19:28:37.949742Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2036
+[2m2026-03-28T19:28:37.962176Z[0m [32m INFO[0m Price update received: doge/usd 1774726117000 92034656166202090
+[2m2026-03-28T19:28:37.963285Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2037
+[2m2026-03-28T19:28:37.974607Z[0m [32m INFO[0m Price update received: xrp/usd 1774726117000 1343706600000000000
+[2m2026-03-28T19:28:37.975505Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2038
+[2m2026-03-28T19:28:37.994365Z[0m [32m INFO[0m Price update received: eth/usd 1774726117000 2018622994111211850000
+[2m2026-03-28T19:28:37.995471Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2039
+[2m2026-03-28T19:28:37.997096Z[0m [32m INFO[0m Price update received: sol/usd 1774726117000 83141843478563325000
+[2m2026-03-28T19:28:37.997698Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2040
+[2m2026-03-28T19:28:38.034894Z[0m [32m INFO[0m Price update received: hype/usd 1774726117000 39853820643816140000
+[2m2026-03-28T19:28:38.036000Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2041
+[2m2026-03-28T19:28:38.045617Z[0m [32m INFO[0m Price update received: btc/usd 1774726117000 66803533739388530000000
+[2m2026-03-28T19:28:38.046492Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2042
+[2m2026-03-28T19:28:39.606479Z[0m [32m INFO[0m Price update received: btc/usd 1774726118000 66803570000000000000000
+[2m2026-03-28T19:28:39.607867Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2043
+[2m2026-03-28T19:28:39.622006Z[0m [32m INFO[0m Price update received: bnb/usd 1774726118000 615731447378638600000
+[2m2026-03-28T19:28:39.622838Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2044
+[2m2026-03-28T19:28:39.633426Z[0m [32m INFO[0m Price update received: xrp/usd 1774726118000 1343698702525900800
+[2m2026-03-28T19:28:39.634486Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2045
+[2m2026-03-28T19:28:39.645766Z[0m [32m INFO[0m Price update received: sol/usd 1774726118000 83141597415557455000
+[2m2026-03-28T19:28:39.646669Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2046
+[2m2026-03-28T19:28:39.655306Z[0m [32m INFO[0m Price update received: eth/usd 1774726118000 2018622876793138650000
+[2m2026-03-28T19:28:39.656348Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2047
+[2m2026-03-28T19:28:39.686255Z[0m [32m INFO[0m Price update received: hype/usd 1774726118000 39853855118931460000
+[2m2026-03-28T19:28:39.687306Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2048
+[2m2026-03-28T19:28:39.694269Z[0m [32m INFO[0m Price update received: doge/usd 1774726118000 92027129401783240
+[2m2026-03-28T19:28:39.695042Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2049
+[2m2026-03-28T19:28:40.114640Z[0m [32m INFO[0m Price update received: btc/usd 1774726119000 66803480000000000000000
+[2m2026-03-28T19:28:40.115984Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2050
+[2m2026-03-28T19:28:40.145797Z[0m [32m INFO[0m Price update received: hype/usd 1774726119000 39854262153326026000
+[2m2026-03-28T19:28:40.146616Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2051
+[2m2026-03-28T19:28:40.146673Z[0m [32m INFO[0m Price update received: doge/usd 1774726119000 92011800000000000
+[2m2026-03-28T19:28:40.147753Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2052
+[2m2026-03-28T19:28:40.165910Z[0m [32m INFO[0m Price update received: xrp/usd 1774726119000 1343594416948318500
+[2m2026-03-28T19:28:40.166694Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2053
+[2m2026-03-28T19:28:40.198373Z[0m [32m INFO[0m Price update received: sol/usd 1774726119000 83141443941436555000
+[2m2026-03-28T19:28:40.199408Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2054
+[2m2026-03-28T19:28:40.219442Z[0m [32m INFO[0m Price update received: eth/usd 1774726119000 2018620829772337200000
+[2m2026-03-28T19:28:40.220264Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2055
+[2m2026-03-28T19:28:40.222616Z[0m [32m INFO[0m Price update received: bnb/usd 1774726119000 615731447378638600000
+[2m2026-03-28T19:28:40.223435Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2056
+[2m2026-03-28T19:28:41.140459Z[0m [32m INFO[0m Price update received: eth/usd 1774726120000 2018617647286857000000
+[2m2026-03-28T19:28:41.141888Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2057
+[2m2026-03-28T19:28:41.158573Z[0m [32m INFO[0m Price update received: doge/usd 1774726120000 92007500000000000
+[2m2026-03-28T19:28:41.159381Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2058
+[2m2026-03-28T19:28:41.182974Z[0m [32m INFO[0m Price update received: hype/usd 1774726120000 39854298809220230000
+[2m2026-03-28T19:28:41.184054Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2059
+[2m2026-03-28T19:28:41.184121Z[0m [32m INFO[0m Price update received: xrp/usd 1774726120000 1343574263146838700
+[2m2026-03-28T19:28:41.185123Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2060
+[2m2026-03-28T19:28:41.194823Z[0m [32m INFO[0m Price update received: sol/usd 1774726120000 83141520835095095000
+[2m2026-03-28T19:28:41.195556Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2061
+[2m2026-03-28T19:28:41.222344Z[0m [32m INFO[0m Price update received: bnb/usd 1774726120000 615731447378638600000
+[2m2026-03-28T19:28:41.223410Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2062
+[2m2026-03-28T19:28:41.231720Z[0m [32m INFO[0m Price update received: btc/usd 1774726120000 66803470000000000000000
+[2m2026-03-28T19:28:41.232485Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2063
+[2m2026-03-28T19:28:42.158182Z[0m [32m INFO[0m Price update received: eth/usd 1774726121000 2018615744881603350000
+[2m2026-03-28T19:28:42.159647Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2064
+[2m2026-03-28T19:28:42.178358Z[0m [32m INFO[0m Price update received: bnb/usd 1774726121000 615731447378638600000
+[2m2026-03-28T19:28:42.179493Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2065
+[2m2026-03-28T19:28:42.180753Z[0m [32m INFO[0m Price update received: btc/usd 1774726121000 66803660000000000000000
+[2m2026-03-28T19:28:42.181281Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2066
+[2m2026-03-28T19:28:42.181335Z[0m [32m INFO[0m Price update received: hype/usd 1774726121000 39854298836405874000
+[2m2026-03-28T19:28:42.181849Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2067
+[2m2026-03-28T19:28:42.187515Z[0m [32m INFO[0m Price update received: xrp/usd 1774726121000 1343566148638679300
+[2m2026-03-28T19:28:42.188392Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2068
+[2m2026-03-28T19:28:42.225367Z[0m [32m INFO[0m Price update received: doge/usd 1774726121000 92005200000000000
+[2m2026-03-28T19:28:42.226442Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2069
+[2m2026-03-28T19:28:42.250893Z[0m [32m INFO[0m Price update received: sol/usd 1774726121000 83141578590753255000
+[2m2026-03-28T19:28:42.251965Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2070
+[2m2026-03-28T19:28:43.106873Z[0m [32m INFO[0m Price update received: hype/usd 1774726122000 39854334224272600000
+[2m2026-03-28T19:28:43.108050Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2071
+[2m2026-03-28T19:28:43.141986Z[0m [32m INFO[0m Price update received: sol/usd 1774726122000 83141578156643605000
+[2m2026-03-28T19:28:43.142926Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2072
+[2m2026-03-28T19:28:43.144769Z[0m [32m INFO[0m Price update received: bnb/usd 1774726122000 615731447378638600000
+[2m2026-03-28T19:28:43.145841Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2073
+[2m2026-03-28T19:28:43.166075Z[0m [32m INFO[0m Price update received: doge/usd 1774726122000 92005200000000000
+[2m2026-03-28T19:28:43.166926Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2074
+[2m2026-03-28T19:28:43.183066Z[0m [32m INFO[0m Price update received: xrp/usd 1774726122000 1343564524649811800
+[2m2026-03-28T19:28:43.183917Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2075
+[2m2026-03-28T19:28:43.223347Z[0m [32m INFO[0m Price update received: btc/usd 1774726122000 66803610000000000000000
+[2m2026-03-28T19:28:43.224057Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2076
+[2m2026-03-28T19:28:43.224456Z[0m [32m INFO[0m Price update received: eth/usd 1774726122000 2018615774896301000000
+[2m2026-03-28T19:28:43.225091Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2077
+[2m2026-03-28T19:28:44.207618Z[0m [32m INFO[0m Price update received: xrp/usd 1774726123000 1343562538369781500
+[2m2026-03-28T19:28:44.208884Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2078
+[2m2026-03-28T19:28:44.214838Z[0m [32m INFO[0m Price update received: eth/usd 1774726123000 2018617566033256100000
+[2m2026-03-28T19:28:44.215632Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2079
+[2m2026-03-28T19:28:44.220461Z[0m [32m INFO[0m Price update received: doge/usd 1774726123000 92006200000000000
+[2m2026-03-28T19:28:44.221461Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2080
+[2m2026-03-28T19:28:44.230282Z[0m [32m INFO[0m Price update received: btc/usd 1774726123000 66803710000000000000000
+[2m2026-03-28T19:28:44.231025Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2081
+[2m2026-03-28T19:28:44.248923Z[0m [32m INFO[0m Price update received: sol/usd 1774726123000 83141639462444615000
+[2m2026-03-28T19:28:44.249967Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2082
+[2m2026-03-28T19:28:44.250034Z[0m [32m INFO[0m Price update received: bnb/usd 1774726123000 615731447378638600000
+[2m2026-03-28T19:28:44.250989Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2083
+[2m2026-03-28T19:28:44.275880Z[0m [32m INFO[0m Price update received: hype/usd 1774726123000 39855997231481930000
+[2m2026-03-28T19:28:44.277102Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2084
+[2m2026-03-28T19:28:45.241554Z[0m [32m INFO[0m Price update received: bnb/usd 1774726124000 615730347195086400000
+[2m2026-03-28T19:28:45.242881Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2085
+[2m2026-03-28T19:28:45.242945Z[0m [32m INFO[0m Price update received: eth/usd 1774726124000 2018622980270762500000
+[2m2026-03-28T19:28:45.243999Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2086
+[2m2026-03-28T19:28:45.255319Z[0m [32m INFO[0m Price update received: btc/usd 1774726124000 66803460000000000000000
+[2m2026-03-28T19:28:45.256401Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2087
+[2m2026-03-28T19:28:45.303835Z[0m [32m INFO[0m Price update received: hype/usd 1774726124000 39856001414270900000
+[2m2026-03-28T19:28:45.304913Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2088
+[2m2026-03-28T19:28:45.309650Z[0m [32m INFO[0m Price update received: sol/usd 1774726124000 83141754462444615000
+[2m2026-03-28T19:28:45.310330Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2089
+[2m2026-03-28T19:28:45.310378Z[0m [32m INFO[0m Price update received: xrp/usd 1774726124000 1343561106288068600
+[2m2026-03-28T19:28:45.311224Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2090
+[2m2026-03-28T19:28:45.348468Z[0m [32m INFO[0m Price update received: doge/usd 1774726124000 92007900000000000
+[2m2026-03-28T19:28:45.349658Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2091
+[2m2026-03-28T19:28:46.205999Z[0m [32m INFO[0m Price update received: btc/usd 1774726125000 66803870000000000000000
+[2m2026-03-28T19:28:46.207545Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2092
+[2m2026-03-28T19:28:46.223532Z[0m [32m INFO[0m Price update received: bnb/usd 1774726125000 615730347195086400000
+[2m2026-03-28T19:28:46.224736Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2093
+[2m2026-03-28T19:28:46.234187Z[0m [32m INFO[0m Price update received: hype/usd 1774726125000 39856001414270900000
+[2m2026-03-28T19:28:46.235212Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2094
+[2m2026-03-28T19:28:46.237577Z[0m [32m INFO[0m Price update received: eth/usd 1774726125000 2018626048377980250000
+[2m2026-03-28T19:28:46.238062Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2095
+[2m2026-03-28T19:28:46.245734Z[0m [32m INFO[0m Price update received: sol/usd 1774726125000 83141670859939310000
+[2m2026-03-28T19:28:46.246700Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2096
+[2m2026-03-28T19:28:46.262501Z[0m [32m INFO[0m Price update received: doge/usd 1774726125000 92007900000000000
+[2m2026-03-28T19:28:46.263193Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2097
+[2m2026-03-28T19:28:46.269372Z[0m [32m INFO[0m Price update received: xrp/usd 1774726125000 1343561206418650800
+[2m2026-03-28T19:28:46.270270Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2098
+[2m2026-03-28T19:28:47.257593Z[0m [32m INFO[0m Price update received: doge/usd 1774726126000 92007800000000000
+[2m2026-03-28T19:28:47.258835Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2099
+[2m2026-03-28T19:28:47.273153Z[0m [32m INFO[0m Price update received: xrp/usd 1774726126000 1343561139872264300
+[2m2026-03-28T19:28:47.274310Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2100
+[2m2026-03-28T19:28:47.281307Z[0m [32m INFO[0m Price update received: sol/usd 1774726126000 83141596665553290000
+[2m2026-03-28T19:28:47.282399Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2101
+[2m2026-03-28T19:28:47.284087Z[0m [32m INFO[0m Price update received: btc/usd 1774726126000 66804040000000000000000
+[2m2026-03-28T19:28:47.284673Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2102
+[2m2026-03-28T19:28:47.316520Z[0m [32m INFO[0m Price update received: eth/usd 1774726126000 2018639200000000000000
+[2m2026-03-28T19:28:47.317609Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2103
+[2m2026-03-28T19:28:47.317713Z[0m [32m INFO[0m Price update received: hype/usd 1774726126000 39855668703230160000
+[2m2026-03-28T19:28:47.318572Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2104
+[2m2026-03-28T19:28:47.354405Z[0m [32m INFO[0m Price update received: bnb/usd 1774726126000 615728146827982200000
+[2m2026-03-28T19:28:47.355514Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2105
+[2m2026-03-28T19:28:48.264530Z[0m [32m INFO[0m Price update received: eth/usd 1774726127000 2018639200000000000000
+[2m2026-03-28T19:28:48.265705Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2106
+[2m2026-03-28T19:28:48.265801Z[0m [32m INFO[0m Price update received: btc/usd 1774726127000 66803950000000000000000
+[2m2026-03-28T19:28:48.266937Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2107
+[2m2026-03-28T19:28:48.277151Z[0m [32m INFO[0m Price update received: sol/usd 1774726127000 83141682616979055000
+[2m2026-03-28T19:28:48.278136Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2108
+[2m2026-03-28T19:28:48.285881Z[0m [32m INFO[0m Price update received: doge/usd 1774726127000 92006800000000000
+[2m2026-03-28T19:28:48.286684Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2109
+[2m2026-03-28T19:28:48.325104Z[0m [32m INFO[0m Price update received: hype/usd 1774726127000 39854815358309790000
+[2m2026-03-28T19:28:48.326134Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2110
+[2m2026-03-28T19:28:48.326207Z[0m [32m INFO[0m Price update received: xrp/usd 1774726127000 1343568825515652800
+[2m2026-03-28T19:28:48.326881Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2111
+[2m2026-03-28T19:28:48.388053Z[0m [32m INFO[0m Price update received: bnb/usd 1774726127000 615728146827982200000
+[2m2026-03-28T19:28:48.389176Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2112
+[2m2026-03-28T19:28:49.291527Z[0m [32m INFO[0m Price update received: bnb/usd 1774726128000 615728146827982200000
+[2m2026-03-28T19:28:49.292819Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2113
+[2m2026-03-28T19:28:49.302674Z[0m [32m INFO[0m Price update received: hype/usd 1774726128000 39854785950076860000
+[2m2026-03-28T19:28:49.303538Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2114
+[2m2026-03-28T19:28:49.326839Z[0m [32m INFO[0m Price update received: btc/usd 1774726128000 66803920000000000000000
+[2m2026-03-28T19:28:49.327935Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2115
+[2m2026-03-28T19:28:49.341125Z[0m [32m INFO[0m Price update received: doge/usd 1774726128000 92006800000000000
+[2m2026-03-28T19:28:49.342019Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2116
+[2m2026-03-28T19:28:49.376849Z[0m [32m INFO[0m Price update received: xrp/usd 1774726128000 1343574347945368400
+[2m2026-03-28T19:28:49.377964Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2117
+[2m2026-03-28T19:28:49.395756Z[0m [32m INFO[0m Price update received: eth/usd 1774726128000 2018639200000000000000
+[2m2026-03-28T19:28:49.396775Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2118
+[2m2026-03-28T19:28:49.488618Z[0m [32m INFO[0m Price update received: sol/usd 1774726128000 83141694484095345000
+[2m2026-03-28T19:28:49.489656Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2119
+[2m2026-03-28T19:28:50.322807Z[0m [32m INFO[0m Price update received: doge/usd 1774726129000 92006800000000000
+[2m2026-03-28T19:28:50.324045Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2120
+[2m2026-03-28T19:28:50.324134Z[0m [32m INFO[0m Price update received: btc/usd 1774726129000 66803870000000000000000
+[2m2026-03-28T19:28:50.324809Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2121
+[2m2026-03-28T19:28:50.329878Z[0m [32m INFO[0m Price update received: hype/usd 1774726129000 39854719219858445000
+[2m2026-03-28T19:28:50.330661Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2122
+[2m2026-03-28T19:28:50.333878Z[0m [32m INFO[0m Price update received: eth/usd 1774726129000 2018639200000000000000
+[2m2026-03-28T19:28:50.334672Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2123
+[2m2026-03-28T19:28:50.337148Z[0m [32m INFO[0m Price update received: bnb/usd 1774726129000 615728146827982200000
+[2m2026-03-28T19:28:50.337798Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2124
+[2m2026-03-28T19:28:50.370586Z[0m [32m INFO[0m Price update received: xrp/usd 1774726129000 1343574397945368400
+[2m2026-03-28T19:28:50.371634Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2125
+[2m2026-03-28T19:28:50.376554Z[0m [32m INFO[0m Price update received: sol/usd 1774726129000 83141879277189620000
+[2m2026-03-28T19:28:50.377492Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2126
+[2m2026-03-28T19:28:50.841685Z[0m [32m INFO[0m Price update received: xrp/usd 1774726130000 1343574597945368400
+[2m2026-03-28T19:28:50.842869Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2127
+[2m2026-03-28T19:28:50.843006Z[0m [32m INFO[0m Price update received: btc/usd 1774726130000 66803870000000000000000
+[2m2026-03-28T19:28:50.843910Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2128
+[2m2026-03-28T19:28:50.853145Z[0m [32m INFO[0m Price update received: doge/usd 1774726130000 92006800000000000
+[2m2026-03-28T19:28:50.853887Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2129
+[2m2026-03-28T19:28:50.860677Z[0m [32m INFO[0m Price update received: eth/usd 1774726130000 2018639200000000000000
+[2m2026-03-28T19:28:50.861497Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2130
+[2m2026-03-28T19:28:50.878477Z[0m [32m INFO[0m Price update received: sol/usd 1774726130000 83141879282079510000
+[2m2026-03-28T19:28:50.879277Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2131
+[2m2026-03-28T19:28:50.879368Z[0m [32m INFO[0m Price update received: hype/usd 1774726130000 39854719219858445000
+[2m2026-03-28T19:28:50.879882Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2132
+[2m2026-03-28T19:28:50.880524Z[0m [32m INFO[0m Price update received: bnb/usd 1774726130000 615728146827982200000
+[2m2026-03-28T19:28:50.880938Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2133
+[2m2026-03-28T19:28:51.862006Z[0m [32m INFO[0m Price update received: bnb/usd 1774726131000 615728146827982200000
+[2m2026-03-28T19:28:51.863371Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2134
+[2m2026-03-28T19:28:51.863822Z[0m [32m INFO[0m Price update received: sol/usd 1774726131000 83142138194186025000
+[2m2026-03-28T19:28:51.864515Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2135
+[2m2026-03-28T19:28:51.888524Z[0m [32m INFO[0m Price update received: doge/usd 1774726131000 92006900000000000
+[2m2026-03-28T19:28:51.889628Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2136
+[2m2026-03-28T19:28:51.913927Z[0m [32m INFO[0m Price update received: hype/usd 1774726131000 39854310480114190000
+[2m2026-03-28T19:28:51.914636Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2137
+[2m2026-03-28T19:28:51.919052Z[0m [32m INFO[0m Price update received: eth/usd 1774726131000 2018629200000000000000
+[2m2026-03-28T19:28:51.919983Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2138
+[2m2026-03-28T19:28:51.935145Z[0m [32m INFO[0m Price update received: xrp/usd 1774726131000 1343574447945368400
+[2m2026-03-28T19:28:51.935832Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2139
+[2m2026-03-28T19:28:51.935907Z[0m [32m INFO[0m Price update received: btc/usd 1774726131000 66803910000000000000000
+[2m2026-03-28T19:28:51.936608Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2140
+[2m2026-03-28T19:28:53.511286Z[0m [32m INFO[0m Price update received: xrp/usd 1774726132000 1343573382810521900
+[2m2026-03-28T19:28:53.512808Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2141
+[2m2026-03-28T19:28:53.512886Z[0m [32m INFO[0m Price update received: sol/usd 1774726132000 83142238117942600000
+[2m2026-03-28T19:28:53.513651Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2142
+[2m2026-03-28T19:28:53.513710Z[0m [32m INFO[0m Price update received: bnb/usd 1774726132000 615730347195086400000
+[2m2026-03-28T19:28:53.514230Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2143
+[2m2026-03-28T19:28:53.523822Z[0m [32m INFO[0m Price update received: doge/usd 1774726132000 92007000000000000
+[2m2026-03-28T19:28:53.524879Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2144
+[2m2026-03-28T19:28:53.534866Z[0m [32m INFO[0m Price update received: btc/usd 1774726132000 66804000000000000000000
+[2m2026-03-28T19:28:53.535610Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2145
+[2m2026-03-28T19:28:53.566829Z[0m [32m INFO[0m Price update received: eth/usd 1774726132000 2018671430763243400000
+[2m2026-03-28T19:28:53.567959Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2146
+[2m2026-03-28T19:28:53.568026Z[0m [32m INFO[0m Price update received: hype/usd 1774726132000 39853500471533110000
+[2m2026-03-28T19:28:53.568773Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2147
+[2m2026-03-28T19:28:54.031631Z[0m [32m INFO[0m Price update received: doge/usd 1774726133000 92007000000000000
+[2m2026-03-28T19:28:54.032998Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2148
+[2m2026-03-28T19:28:54.033113Z[0m [32m INFO[0m Price update received: eth/usd 1774726133000 2018667166123859950000
+[2m2026-03-28T19:28:54.034149Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2149
+[2m2026-03-28T19:28:54.034254Z[0m [32m INFO[0m Price update received: sol/usd 1774726133000 83142053235756440000
+[2m2026-03-28T19:28:54.034883Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2150
+[2m2026-03-28T19:28:54.073141Z[0m [32m INFO[0m Price update received: xrp/usd 1774726133000 1343569944494422000
+[2m2026-03-28T19:28:54.073921Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2151
+[2m2026-03-28T19:28:54.094937Z[0m [32m INFO[0m Price update received: hype/usd 1774726133000 39853500471533110000
+[2m2026-03-28T19:28:54.096165Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2152
+[2m2026-03-28T19:28:54.096604Z[0m [32m INFO[0m Price update received: btc/usd 1774726133000 66804330000000000000000
+[2m2026-03-28T19:28:54.097158Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2153
+[2m2026-03-28T19:28:54.098752Z[0m [32m INFO[0m Price update received: bnb/usd 1774726133000 615730347195086400000
+[2m2026-03-28T19:28:54.099529Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2154
+[2m2026-03-28T19:28:55.190951Z[0m [32m INFO[0m Price update received: btc/usd 1774726134000 66803500000000000000000
+[2m2026-03-28T19:28:55.192464Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2155
+[2m2026-03-28T19:28:55.198509Z[0m [32m INFO[0m Price update received: eth/usd 1774726134000 2018667149396039000000
+[2m2026-03-28T19:28:55.199296Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2156
+[2m2026-03-28T19:28:55.201187Z[0m [32m INFO[0m Price update received: sol/usd 1774726134000 83142047269343805000
+[2m2026-03-28T19:28:55.202119Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2157
+[2m2026-03-28T19:28:55.210380Z[0m [32m INFO[0m Price update received: hype/usd 1774726134000 39852663916936370000
+[2m2026-03-28T19:28:55.211154Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2158
+[2m2026-03-28T19:28:55.213013Z[0m [32m INFO[0m Price update received: bnb/usd 1774726134000 615730347195086400000
+[2m2026-03-28T19:28:55.213956Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2159
+[2m2026-03-28T19:28:55.241750Z[0m [32m INFO[0m Price update received: xrp/usd 1774726134000 1343564995818329500
+[2m2026-03-28T19:28:55.242594Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2160
+[2m2026-03-28T19:28:55.260376Z[0m [32m INFO[0m Price update received: doge/usd 1774726134000 92007700000000000
+[2m2026-03-28T19:28:55.261421Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2161
+[2m2026-03-28T19:28:56.348250Z[0m [32m INFO[0m Price update received: bnb/usd 1774726135000 615718680000000000000
+[2m2026-03-28T19:28:56.349645Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2162
+[2m2026-03-28T19:28:56.357275Z[0m [32m INFO[0m Price update received: hype/usd 1774726135000 39852663892696650000
+[2m2026-03-28T19:28:56.358025Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2163
+[2m2026-03-28T19:28:56.358102Z[0m [32m INFO[0m Price update received: eth/usd 1774726135000 2018655388033678000000
+[2m2026-03-28T19:28:56.358766Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2164
+[2m2026-03-28T19:28:56.362191Z[0m [32m INFO[0m Price update received: xrp/usd 1774726135000 1343550849212241400
+[2m2026-03-28T19:28:56.362966Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2165
+[2m2026-03-28T19:28:56.418788Z[0m [32m INFO[0m Price update received: doge/usd 1774726135000 92007000000000000
+[2m2026-03-28T19:28:56.420020Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2166
+[2m2026-03-28T19:28:56.455606Z[0m [32m INFO[0m Price update received: btc/usd 1774726135000 66802890000000000000000
+[2m2026-03-28T19:28:56.456757Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2167
+[2m2026-03-28T19:28:56.495880Z[0m [32m INFO[0m Price update received: sol/usd 1774726135000 83141907269343805000
+[2m2026-03-28T19:28:56.496987Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2168
+[2m2026-03-28T19:28:56.892857Z[0m [32m INFO[0m Price update received: bnb/usd 1774726136000 615718600000000000000
+[2m2026-03-28T19:28:56.899065Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2169
+[2m2026-03-28T19:28:56.927136Z[0m [32m INFO[0m Price update received: eth/usd 1774726136000 2018655388033678000000
+[2m2026-03-28T19:28:56.934933Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2170
+[2m2026-03-28T19:28:56.935079Z[0m [32m INFO[0m Price update received: xrp/usd 1774726136000 1343551532598235500
+[2m2026-03-28T19:28:56.937259Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2171
+[2m2026-03-28T19:28:56.937332Z[0m [32m INFO[0m Price update received: hype/usd 1774726136000 39852686509834790000
+[2m2026-03-28T19:28:56.942789Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2172
+[2m2026-03-28T19:28:56.942933Z[0m [32m INFO[0m Price update received: doge/usd 1774726136000 92008000000000000
+[2m2026-03-28T19:28:56.946584Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2173
+[2m2026-03-28T19:28:56.946690Z[0m [32m INFO[0m Price update received: btc/usd 1774726136000 66802890000000000000000
+[2m2026-03-28T19:28:56.947408Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2174
+[2m2026-03-28T19:28:56.968617Z[0m [32m INFO[0m Price update received: sol/usd 1774726136000 83141918321039110000
+[2m2026-03-28T19:28:56.969436Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2175
+[2m2026-03-28T19:28:58.081727Z[0m [32m INFO[0m Price update received: eth/usd 1774726137000 2018693293353205750000
+[2m2026-03-28T19:28:58.083063Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2176
+[2m2026-03-28T19:28:58.095898Z[0m [32m INFO[0m Price update received: xrp/usd 1774726137000 1343599077517638000
+[2m2026-03-28T19:28:58.096905Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2177
+[2m2026-03-28T19:28:58.108032Z[0m [32m INFO[0m Price update received: hype/usd 1774726137000 39853604228049925000
+[2m2026-03-28T19:28:58.108991Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2178
+[2m2026-03-28T19:28:58.111501Z[0m [32m INFO[0m Price update received: doge/usd 1774726137000 92015686268949200
+[2m2026-03-28T19:28:58.112163Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2179
+[2m2026-03-28T19:28:58.121305Z[0m [32m INFO[0m Price update received: bnb/usd 1774726137000 615730742884570400000
+[2m2026-03-28T19:28:58.122155Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2180
+[2m2026-03-28T19:28:58.135350Z[0m [32m INFO[0m Price update received: sol/usd 1774726137000 83149440000000000000
+[2m2026-03-28T19:28:58.136202Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2181
+[2m2026-03-28T19:28:58.174664Z[0m [32m INFO[0m Price update received: btc/usd 1774726137000 66803470000000000000000
+[2m2026-03-28T19:28:58.175553Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2182
+[2m2026-03-28T19:28:59.172743Z[0m [32m INFO[0m Price update received: btc/usd 1774726138000 66804646890000000000000
+[2m2026-03-28T19:28:59.174169Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2183
+[2m2026-03-28T19:28:59.177509Z[0m [32m INFO[0m Price update received: hype/usd 1774726138000 39853604228049925000
+[2m2026-03-28T19:28:59.178327Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2184
+[2m2026-03-28T19:28:59.205577Z[0m [32m INFO[0m Price update received: bnb/usd 1774726138000 615730742884570400000
+[2m2026-03-28T19:28:59.206411Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2185
+[2m2026-03-28T19:28:59.209105Z[0m [32m INFO[0m Price update received: eth/usd 1774726138000 2018722337607765400000
+[2m2026-03-28T19:28:59.209718Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2186
+[2m2026-03-28T19:28:59.216496Z[0m [32m INFO[0m Price update received: sol/usd 1774726138000 83151581252486245000
+[2m2026-03-28T19:28:59.217122Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2187
+[2m2026-03-28T19:28:59.222256Z[0m [32m INFO[0m Price update received: xrp/usd 1774726138000 1343612735225958500
+[2m2026-03-28T19:28:59.223034Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2188
+[2m2026-03-28T19:28:59.433113Z[0m [32m INFO[0m Price update received: doge/usd 1774726138000 92026100000000000
+[2m2026-03-28T19:28:59.434294Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2189
+[2m2026-03-28T19:29:00.364606Z[0m [32m INFO[0m Price update received: bnb/usd 1774726139000 615771842752660300000
+[2m2026-03-28T19:29:00.366029Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2190
+[2m2026-03-28T19:29:00.372929Z[0m [32m INFO[0m Price update received: xrp/usd 1774726139000 1343621295960767200
+[2m2026-03-28T19:29:00.373867Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2191
+[2m2026-03-28T19:29:00.377090Z[0m [32m INFO[0m Price update received: sol/usd 1774726139000 83153630765689725000
+[2m2026-03-28T19:29:00.377881Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2192
+[2m2026-03-28T19:29:00.386070Z[0m [32m INFO[0m Price update received: eth/usd 1774726139000 2018752936801642950000
+[2m2026-03-28T19:29:00.386952Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2193
+[2m2026-03-28T19:29:00.392716Z[0m [32m INFO[0m Price update received: hype/usd 1774726139000 39853599019959950000
+[2m2026-03-28T19:29:00.393298Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2194
+[2m2026-03-28T19:29:00.429944Z[0m [32m INFO[0m Price update received: btc/usd 1774726139000 66805480220000000000000
+[2m2026-03-28T19:29:00.430975Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2195
+[2m2026-03-28T19:29:00.437155Z[0m [32m INFO[0m Price update received: doge/usd 1774726139000 92026100000000000
+[2m2026-03-28T19:29:00.438051Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2196
+[2m2026-03-28T19:29:00.882010Z[0m [32m INFO[0m Price update received: xrp/usd 1774726140000 1343620999090526300
+[2m2026-03-28T19:29:00.883375Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2197
+[2m2026-03-28T19:29:00.901171Z[0m [32m INFO[0m Price update received: sol/usd 1774726140000 83153630765689725000
+[2m2026-03-28T19:29:00.902229Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2198
+[2m2026-03-28T19:29:00.914979Z[0m [32m INFO[0m Price update received: doge/usd 1774726140000 92026100000000000
+[2m2026-03-28T19:29:00.915723Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2199
+[2m2026-03-28T19:29:00.919217Z[0m [32m INFO[0m Price update received: btc/usd 1774726140000 66805482820000000000000
+[2m2026-03-28T19:29:00.920084Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2200
+[2m2026-03-28T19:29:00.928314Z[0m [32m INFO[0m Price update received: eth/usd 1774726140000 2018752936801642950000
+[2m2026-03-28T19:29:00.928962Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2201
+[2m2026-03-28T19:29:00.933627Z[0m [32m INFO[0m Price update received: bnb/usd 1774726140000 615776348686683300000
+[2m2026-03-28T19:29:00.934414Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2202
+[2m2026-03-28T19:29:01.031331Z[0m [32m INFO[0m Price update received: hype/usd 1774726140000 39853597638364754000
+[2m2026-03-28T19:29:01.032542Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2203
+[2m2026-03-28T19:29:02.054913Z[0m [32m INFO[0m Price update received: sol/usd 1774726141000 83155338819112490000
+[2m2026-03-28T19:29:02.056225Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2204
+[2m2026-03-28T19:29:02.056325Z[0m [32m INFO[0m Price update received: btc/usd 1774726141000 66805486380000000000000
+[2m2026-03-28T19:29:02.056887Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2205
+[2m2026-03-28T19:29:02.056946Z[0m [32m INFO[0m Price update received: hype/usd 1774726141000 39853562283165616000
+[2m2026-03-28T19:29:02.057369Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2206
+[2m2026-03-28T19:29:02.057422Z[0m [32m INFO[0m Price update received: doge/usd 1774726141000 92026100000000000
+[2m2026-03-28T19:29:02.057895Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2207
+[2m2026-03-28T19:29:02.064684Z[0m [32m INFO[0m Price update received: xrp/usd 1774726141000 1343620802429160800
+[2m2026-03-28T19:29:02.065448Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2208
+[2m2026-03-28T19:29:02.074689Z[0m [32m INFO[0m Price update received: eth/usd 1774726141000 2018754175271871900000
+[2m2026-03-28T19:29:02.075385Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2209
+[2m2026-03-28T19:29:02.081229Z[0m [32m INFO[0m Price update received: bnb/usd 1774726141000 615783848235806200000
+[2m2026-03-28T19:29:02.082012Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2210
+[2m2026-03-28T19:29:03.033307Z[0m [32m INFO[0m Price update received: hype/usd 1774726142000 39852718634020460000
+[2m2026-03-28T19:29:03.034471Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2211
+[2m2026-03-28T19:29:03.069490Z[0m [32m INFO[0m Price update received: doge/usd 1774726142000 92025500000000000
+[2m2026-03-28T19:29:03.070541Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2212
+[2m2026-03-28T19:29:03.080781Z[0m [32m INFO[0m Price update received: eth/usd 1774726142000 2018752350000000000000
+[2m2026-03-28T19:29:03.081853Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2213
+[2m2026-03-28T19:29:03.126647Z[0m [32m INFO[0m Price update received: xrp/usd 1774726142000 1343652137910051700
+[2m2026-03-28T19:29:03.127733Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2214
+[2m2026-03-28T19:29:03.147896Z[0m [32m INFO[0m Price update received: sol/usd 1774726142000 83157357580011585000
+[2m2026-03-28T19:29:03.148771Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2215
+[2m2026-03-28T19:29:03.179328Z[0m [32m INFO[0m Price update received: btc/usd 1774726142000 66804515770000000000000
+[2m2026-03-28T19:29:03.180358Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2216
+[2m2026-03-28T19:29:03.209107Z[0m [32m INFO[0m Price update received: bnb/usd 1774726142000 615782679442331500000
+[2m2026-03-28T19:29:03.210200Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2217
+[2m2026-03-28T19:29:04.113456Z[0m [32m INFO[0m Price update received: bnb/usd 1774726143000 615782679442331500000
+[2m2026-03-28T19:29:04.114841Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2218
+[2m2026-03-28T19:29:04.136010Z[0m [32m INFO[0m Price update received: doge/usd 1774726143000 92024400000000000
+[2m2026-03-28T19:29:04.137058Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2219
+[2m2026-03-28T19:29:04.140534Z[0m [32m INFO[0m Price update received: eth/usd 1774726143000 2018752350000000000000
+[2m2026-03-28T19:29:04.141192Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2220
+[2m2026-03-28T19:29:04.150093Z[0m [32m INFO[0m Price update received: hype/usd 1774726143000 39853790027684890000
+[2m2026-03-28T19:29:04.151056Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2221
+[2m2026-03-28T19:29:04.154075Z[0m [32m INFO[0m Price update received: sol/usd 1774726143000 83158202070264785000
+[2m2026-03-28T19:29:04.154749Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2222
+[2m2026-03-28T19:29:04.196580Z[0m [32m INFO[0m Price update received: btc/usd 1774726143000 66804555710000000000000
+[2m2026-03-28T19:29:04.197255Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2223
+[2m2026-03-28T19:29:04.199882Z[0m [32m INFO[0m Price update received: xrp/usd 1774726143000 1343657124325992500
+[2m2026-03-28T19:29:04.200461Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2224
+[2m2026-03-28T19:29:05.244744Z[0m [32m INFO[0m Price update received: doge/usd 1774726144000 92025600000000000
+[2m2026-03-28T19:29:05.245934Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2225
+[2m2026-03-28T19:29:05.266392Z[0m [32m INFO[0m Price update received: hype/usd 1774726144000 39853786122522585000
+[2m2026-03-28T19:29:05.267249Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2226
+[2m2026-03-28T19:29:05.267322Z[0m [32m INFO[0m Price update received: eth/usd 1774726144000 2018761571415479000000
+[2m2026-03-28T19:29:05.267940Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2227
+[2m2026-03-28T19:29:05.271524Z[0m [32m INFO[0m Price update received: bnb/usd 1774726144000 615781510648857000000
+[2m2026-03-28T19:29:05.272306Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2228
+[2m2026-03-28T19:29:05.273296Z[0m [32m INFO[0m Price update received: sol/usd 1774726144000 83158176428012345000
+[2m2026-03-28T19:29:05.273699Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2229
+[2m2026-03-28T19:29:05.275060Z[0m [32m INFO[0m Price update received: btc/usd 1774726144000 66804559700000000000000
+[2m2026-03-28T19:29:05.275525Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2230
+[2m2026-03-28T19:29:05.306015Z[0m [32m INFO[0m Price update received: xrp/usd 1774726144000 1343669824411686600
+[2m2026-03-28T19:29:05.306932Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2231
+[2m2026-03-28T19:29:06.349016Z[0m [32m INFO[0m Price update received: xrp/usd 1774726145000 1343674150576553400
+[2m2026-03-28T19:29:06.350321Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2232
+[2m2026-03-28T19:29:06.372396Z[0m [32m INFO[0m Price update received: hype/usd 1774726145000 39854343742708010000
+[2m2026-03-28T19:29:06.373439Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2233
+[2m2026-03-28T19:29:06.384587Z[0m [32m INFO[0m Price update received: bnb/usd 1774726145000 615790640951077100000
+[2m2026-03-28T19:29:06.385152Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2234
+[2m2026-03-28T19:29:06.385197Z[0m [32m INFO[0m Price update received: eth/usd 1774726145000 2018761601547652650000
+[2m2026-03-28T19:29:06.385743Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2235
+[2m2026-03-28T19:29:06.411464Z[0m [32m INFO[0m Price update received: doge/usd 1774726145000 92024105298770530
+[2m2026-03-28T19:29:06.412356Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2236
+[2m2026-03-28T19:29:06.424211Z[0m [32m INFO[0m Price update received: sol/usd 1774726145000 83158105366737590000
+[2m2026-03-28T19:29:06.424879Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2237
+[2m2026-03-28T19:29:06.432271Z[0m [32m INFO[0m Price update received: btc/usd 1774726145000 66804559700000000000000
+[2m2026-03-28T19:29:06.433101Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2238
+[2m2026-03-28T19:29:07.496307Z[0m [32m INFO[0m Price update received: btc/usd 1774726146000 66805463210000000000000
+[2m2026-03-28T19:29:07.497662Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2239
+[2m2026-03-28T19:29:07.507543Z[0m [32m INFO[0m Price update received: sol/usd 1774726146000 83158295703750795000
+[2m2026-03-28T19:29:07.508365Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2240
+[2m2026-03-28T19:29:07.519421Z[0m [32m INFO[0m Price update received: doge/usd 1774726146000 92023887000000000
+[2m2026-03-28T19:29:07.520309Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2241
+[2m2026-03-28T19:29:07.529043Z[0m [32m INFO[0m Price update received: hype/usd 1774726146000 39854708613545750000
+[2m2026-03-28T19:29:07.529701Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2242
+[2m2026-03-28T19:29:07.530686Z[0m [32m INFO[0m Price update received: bnb/usd 1774726146000 615790848069999700000
+[2m2026-03-28T19:29:07.531535Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2243
+[2m2026-03-28T19:29:07.566356Z[0m [32m INFO[0m Price update received: xrp/usd 1774726146000 1343673064307505600
+[2m2026-03-28T19:29:07.567128Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2244
+[2m2026-03-28T19:29:07.614757Z[0m [32m INFO[0m Price update received: eth/usd 1774726146000 2018757190136623100000
+[2m2026-03-28T19:29:07.615945Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2245
+[2m2026-03-28T19:29:08.038388Z[0m [32m INFO[0m Price update received: doge/usd 1774726147000 92023861000000000
+[2m2026-03-28T19:29:08.039454Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2246
+[2m2026-03-28T19:29:08.046593Z[0m [32m INFO[0m Price update received: btc/usd 1774726147000 66805458690000000000000
+[2m2026-03-28T19:29:08.047396Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2247
+[2m2026-03-28T19:29:08.067254Z[0m [32m INFO[0m Price update received: bnb/usd 1774726147000 615790973172102600000
+[2m2026-03-28T19:29:08.068128Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2248
+[2m2026-03-28T19:29:08.070741Z[0m [32m INFO[0m Price update received: hype/usd 1774726147000 39854708613545750000
+[2m2026-03-28T19:29:08.071300Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2249
+[2m2026-03-28T19:29:08.083259Z[0m [32m INFO[0m Price update received: xrp/usd 1774726147000 1343673067032055000
+[2m2026-03-28T19:29:08.084103Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2250
+[2m2026-03-28T19:29:08.105311Z[0m [32m INFO[0m Price update received: sol/usd 1774726147000 83158295703750795000
+[2m2026-03-28T19:29:08.106255Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2251
+[2m2026-03-28T19:29:08.152752Z[0m [32m INFO[0m Price update received: eth/usd 1774726147000 2018757190136623100000
+[2m2026-03-28T19:29:08.153662Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2252
+[2m2026-03-28T19:29:09.025752Z[0m [32m INFO[0m Price update received: sol/usd 1774726148000 83158225924611970000
+[2m2026-03-28T19:29:09.027143Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2253
+[2m2026-03-28T19:29:09.052711Z[0m [32m INFO[0m Price update received: bnb/usd 1774726148000 615790973208474000000
+[2m2026-03-28T19:29:09.053415Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2254
+[2m2026-03-28T19:29:09.053473Z[0m [32m INFO[0m Price update received: doge/usd 1774726148000 92024195174926650
+[2m2026-03-28T19:29:09.054458Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2255
+[2m2026-03-28T19:29:09.089663Z[0m [32m INFO[0m Price update received: eth/usd 1774726148000 2018757093049437000000
+[2m2026-03-28T19:29:09.090371Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2256
+[2m2026-03-28T19:29:09.094550Z[0m [32m INFO[0m Price update received: xrp/usd 1774726148000 1343673723373164700
+[2m2026-03-28T19:29:09.095640Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2257
+[2m2026-03-28T19:29:09.128660Z[0m [32m INFO[0m Price update received: hype/usd 1774726148000 39854750410475130000
+[2m2026-03-28T19:29:09.129674Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2258
+[2m2026-03-28T19:29:09.180339Z[0m [32m INFO[0m Price update received: btc/usd 1774726148000 66805456120000000000000
+[2m2026-03-28T19:29:09.181359Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2259
+[2m2026-03-28T19:29:10.173156Z[0m [32m INFO[0m Price update received: bnb/usd 1774726149000 615791277039599700000
+[2m2026-03-28T19:29:10.174524Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2260
+[2m2026-03-28T19:29:10.177478Z[0m [32m INFO[0m Price update received: btc/usd 1774726149000 66805422540000000000000
+[2m2026-03-28T19:29:10.178410Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2261
+[2m2026-03-28T19:29:10.181952Z[0m [32m INFO[0m Price update received: xrp/usd 1774726149000 1343674019167132400
+[2m2026-03-28T19:29:10.182896Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2262
+[2m2026-03-28T19:29:10.182960Z[0m [32m INFO[0m Price update received: eth/usd 1774726149000 2018762125417068800000
+[2m2026-03-28T19:29:10.183799Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2263
+[2m2026-03-28T19:29:10.204160Z[0m [32m INFO[0m Price update received: sol/usd 1774726149000 83158188397233620000
+[2m2026-03-28T19:29:10.205134Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2264
+[2m2026-03-28T19:29:10.228774Z[0m [32m INFO[0m Price update received: doge/usd 1774726149000 92025055760076300
+[2m2026-03-28T19:29:10.229921Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2265
+[2m2026-03-28T19:29:10.229994Z[0m [32m INFO[0m Price update received: hype/usd 1774726149000 39854821293581220000
+[2m2026-03-28T19:29:10.230477Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2266
+[2m2026-03-28T19:29:11.226839Z[0m [32m INFO[0m Price update received: doge/usd 1774726150000 92025036948478830
+[2m2026-03-28T19:29:11.228159Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2267
+[2m2026-03-28T19:29:11.248798Z[0m [32m INFO[0m Price update received: btc/usd 1774726150000 66805398610000000000000
+[2m2026-03-28T19:29:11.249434Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2268
+[2m2026-03-28T19:29:11.267250Z[0m [32m INFO[0m Price update received: bnb/usd 1774726150000 615790975220882200000
+[2m2026-03-28T19:29:11.268365Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2269
+[2m2026-03-28T19:29:11.296059Z[0m [32m INFO[0m Price update received: xrp/usd 1774726150000 1343672557534165200
+[2m2026-03-28T19:29:11.296902Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2270
+[2m2026-03-28T19:29:11.335486Z[0m [32m INFO[0m Price update received: sol/usd 1774726150000 83158175740987570000
+[2m2026-03-28T19:29:11.336519Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2271
+[2m2026-03-28T19:29:11.336597Z[0m [32m INFO[0m Price update received: eth/usd 1774726150000 2018756974132019750000
+[2m2026-03-28T19:29:11.337359Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2272
+[2m2026-03-28T19:29:11.366662Z[0m [32m INFO[0m Price update received: hype/usd 1774726150000 39854778908250346000
+[2m2026-03-28T19:29:11.367677Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2273
+[2m2026-03-28T19:29:12.226238Z[0m [32m INFO[0m Price update received: bnb/usd 1774726151000 615790347596423100000
+[2m2026-03-28T19:29:12.227374Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2274
+[2m2026-03-28T19:29:12.234898Z[0m [32m INFO[0m Price update received: hype/usd 1774726151000 39855261974918870000
+[2m2026-03-28T19:29:12.235876Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2275
+[2m2026-03-28T19:29:12.247661Z[0m [32m INFO[0m Price update received: xrp/usd 1774726151000 1343673886615346400
+[2m2026-03-28T19:29:12.248315Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2276
+[2m2026-03-28T19:29:12.265550Z[0m [32m INFO[0m Price update received: btc/usd 1774726151000 66805387370000000000000
+[2m2026-03-28T19:29:12.266534Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2277
+[2m2026-03-28T19:29:12.266667Z[0m [32m INFO[0m Price update received: sol/usd 1774726151000 83158170649577735000
+[2m2026-03-28T19:29:12.267262Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2278
+[2m2026-03-28T19:29:12.272435Z[0m [32m INFO[0m Price update received: doge/usd 1774726151000 92025050049712100
+[2m2026-03-28T19:29:12.273166Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2279
+[2m2026-03-28T19:29:12.289228Z[0m [32m INFO[0m Price update received: eth/usd 1774726151000 2018757048284605150000
+[2m2026-03-28T19:29:12.290071Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2280
+[2m2026-03-28T19:29:13.187441Z[0m [32m INFO[0m Price update received: sol/usd 1774726152000 83157952688677475000
+[2m2026-03-28T19:29:13.188744Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2281
+[2m2026-03-28T19:29:13.199721Z[0m [32m INFO[0m Price update received: bnb/usd 1774726152000 615785555377480100000
+[2m2026-03-28T19:29:13.200683Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2282
+[2m2026-03-28T19:29:13.203803Z[0m [32m INFO[0m Price update received: eth/usd 1774726152000 2018722461817916850000
+[2m2026-03-28T19:29:13.204449Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2283
+[2m2026-03-28T19:29:13.222665Z[0m [32m INFO[0m Price update received: xrp/usd 1774726152000 1343672232846955700
+[2m2026-03-28T19:29:13.223608Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2284
+[2m2026-03-28T19:29:13.227172Z[0m [32m INFO[0m Price update received: doge/usd 1774726152000 92024744360348410
+[2m2026-03-28T19:29:13.227754Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2285
+[2m2026-03-28T19:29:13.262356Z[0m [32m INFO[0m Price update received: hype/usd 1774726152000 39855550318133865000
+[2m2026-03-28T19:29:13.263392Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2286
+[2m2026-03-28T19:29:13.292540Z[0m [32m INFO[0m Price update received: btc/usd 1774726152000 66805283800000000000000
+[2m2026-03-28T19:29:13.293471Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2287
+[2m2026-03-28T19:29:14.301852Z[0m [32m INFO[0m Price update received: doge/usd 1774726153000 92024744360348410
+[2m2026-03-28T19:29:14.303154Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2288
+[2m2026-03-28T19:29:14.316248Z[0m [32m INFO[0m Price update received: eth/usd 1774726153000 2018724817884099400000
+[2m2026-03-28T19:29:14.317042Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2289
+[2m2026-03-28T19:29:14.320944Z[0m [32m INFO[0m Price update received: bnb/usd 1774726153000 615786954147234700000
+[2m2026-03-28T19:29:14.321888Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2290
+[2m2026-03-28T19:29:14.334719Z[0m [32m INFO[0m Price update received: xrp/usd 1774726153000 1343672511092187500
+[2m2026-03-28T19:29:14.335297Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2291
+[2m2026-03-28T19:29:14.353405Z[0m [32m INFO[0m Price update received: btc/usd 1774726153000 66805190000000000000000
+[2m2026-03-28T19:29:14.354324Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2292
+[2m2026-03-28T19:29:14.362694Z[0m [32m INFO[0m Price update received: sol/usd 1774726153000 83157853653351005000
+[2m2026-03-28T19:29:14.363314Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2293
+[2m2026-03-28T19:29:14.472533Z[0m [32m INFO[0m Price update received: hype/usd 1774726153000 39855549602822820000
+[2m2026-03-28T19:29:14.473663Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2294
+[2m2026-03-28T19:29:14.882470Z[0m [32m INFO[0m Price update received: bnb/usd 1774726154000 615787986414612100000
+[2m2026-03-28T19:29:14.883652Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2295
+[2m2026-03-28T19:29:14.883761Z[0m [32m INFO[0m Price update received: xrp/usd 1774726154000 1343649263556579100
+[2m2026-03-28T19:29:14.884693Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2296
+[2m2026-03-28T19:29:14.887745Z[0m [32m INFO[0m Price update received: doge/usd 1774726154000 92024754266574720
+[2m2026-03-28T19:29:14.888326Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2297
+[2m2026-03-28T19:29:14.898904Z[0m [32m INFO[0m Price update received: sol/usd 1774726154000 83157998503486390000
+[2m2026-03-28T19:29:14.899733Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2298
+[2m2026-03-28T19:29:14.903553Z[0m [32m INFO[0m Price update received: btc/usd 1774726154000 66805190000000000000000
+[2m2026-03-28T19:29:14.904092Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2299
+[2m2026-03-28T19:29:14.934682Z[0m [32m INFO[0m Price update received: eth/usd 1774726154000 2018724873047715500000
+[2m2026-03-28T19:29:14.935835Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2300
+[2m2026-03-28T19:29:14.949272Z[0m [32m INFO[0m Price update received: hype/usd 1774726154000 39855549602822820000
+[2m2026-03-28T19:29:14.950214Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2301
+[2m2026-03-28T19:29:15.854435Z[0m [32m INFO[0m Price update received: eth/usd 1774726155000 2018724933654130000000
+[2m2026-03-28T19:29:15.855685Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2302
+[2m2026-03-28T19:29:15.886611Z[0m [32m INFO[0m Price update received: xrp/usd 1774726155000 1343644883261171200
+[2m2026-03-28T19:29:15.887330Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2303
+[2m2026-03-28T19:29:15.894557Z[0m [32m INFO[0m Price update received: sol/usd 1774726155000 83157808841110620000
+[2m2026-03-28T19:29:15.895574Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2304
+[2m2026-03-28T19:29:15.902212Z[0m [32m INFO[0m Price update received: bnb/usd 1774726155000 615787600695518100000
+[2m2026-03-28T19:29:15.903236Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2305
+[2m2026-03-28T19:29:15.919920Z[0m [32m INFO[0m Price update received: hype/usd 1774726155000 39855365957481816000
+[2m2026-03-28T19:29:15.920629Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2306
+[2m2026-03-28T19:29:15.921424Z[0m [32m INFO[0m Price update received: btc/usd 1774726155000 66804413860000000000000
+[2m2026-03-28T19:29:15.922282Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2307
+[2m2026-03-28T19:29:15.970936Z[0m [32m INFO[0m Price update received: doge/usd 1774726155000 92024784025143620
+[2m2026-03-28T19:29:15.971967Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2308
+[2m2026-03-28T19:29:16.866416Z[0m [32m INFO[0m Price update received: btc/usd 1774726156000 66804386500000000000000
+[2m2026-03-28T19:29:16.867751Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2309
+[2m2026-03-28T19:29:16.867849Z[0m [32m INFO[0m Price update received: hype/usd 1774726156000 39855503372625430000
+[2m2026-03-28T19:29:16.868645Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2310
+[2m2026-03-28T19:29:16.885872Z[0m [32m INFO[0m Price update received: eth/usd 1774726156000 2018724986529323850000
+[2m2026-03-28T19:29:16.886797Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2311
+[2m2026-03-28T19:29:16.899969Z[0m [32m INFO[0m Price update received: xrp/usd 1774726156000 1343645033166141200
+[2m2026-03-28T19:29:16.900970Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2312
+[2m2026-03-28T19:29:16.925066Z[0m [32m INFO[0m Price update received: bnb/usd 1774726156000 615787882705635500000
+[2m2026-03-28T19:29:16.926077Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2313
+[2m2026-03-28T19:29:16.933280Z[0m [32m INFO[0m Price update received: sol/usd 1774726156000 83157762532844950000
+[2m2026-03-28T19:29:16.934077Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2314
+[2m2026-03-28T19:29:17.001012Z[0m [32m INFO[0m Price update received: doge/usd 1774726156000 92024204396798180
+[2m2026-03-28T19:29:17.002150Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2315
+[2m2026-03-28T19:29:17.833719Z[0m [32m INFO[0m Price update received: hype/usd 1774726157000 39855503372625430000
+[2m2026-03-28T19:29:17.835031Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2316
+[2m2026-03-28T19:29:17.845757Z[0m [32m INFO[0m Price update received: xrp/usd 1774726157000 1343646356969510700
+[2m2026-03-28T19:29:17.846682Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2317
+[2m2026-03-28T19:29:17.849883Z[0m [32m INFO[0m Price update received: bnb/usd 1774726157000 615787966141026100000
+[2m2026-03-28T19:29:17.850731Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2318
+[2m2026-03-28T19:29:17.851903Z[0m [32m INFO[0m Price update received: btc/usd 1774726157000 66804392490000000000000
+[2m2026-03-28T19:29:17.852390Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2319
+[2m2026-03-28T19:29:17.877589Z[0m [32m INFO[0m Price update received: doge/usd 1774726157000 92024285060198340
+[2m2026-03-28T19:29:17.878576Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2320
+[2m2026-03-28T19:29:17.898635Z[0m [32m INFO[0m Price update received: eth/usd 1774726157000 2018728531077562850000
+[2m2026-03-28T19:29:17.899425Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2321
+[2m2026-03-28T19:29:17.901146Z[0m [32m INFO[0m Price update received: sol/usd 1774726157000 83157651966727745000
+[2m2026-03-28T19:29:17.901821Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2322
+[2m2026-03-28T19:29:18.867426Z[0m [32m INFO[0m Price update received: doge/usd 1774726158000 92021680000000000
+[2m2026-03-28T19:29:18.869056Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2323
+[2m2026-03-28T19:29:18.888275Z[0m [32m INFO[0m Price update received: xrp/usd 1774726158000 1343646353681611100
+[2m2026-03-28T19:29:18.889092Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2324
+[2m2026-03-28T19:29:18.891464Z[0m [32m INFO[0m Price update received: btc/usd 1774726158000 66804399990000000000000
+[2m2026-03-28T19:29:18.892493Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2325
+[2m2026-03-28T19:29:18.895807Z[0m [32m INFO[0m Price update received: bnb/usd 1774726158000 615788142120134500000
+[2m2026-03-28T19:29:18.896462Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2326
+[2m2026-03-28T19:29:18.933948Z[0m [32m INFO[0m Price update received: eth/usd 1774726158000 2018728716238391500000
+[2m2026-03-28T19:29:18.934936Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2327
+[2m2026-03-28T19:29:18.945737Z[0m [32m INFO[0m Price update received: sol/usd 1774726158000 83157651966727745000
+[2m2026-03-28T19:29:18.946613Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2328
+[2m2026-03-28T19:29:18.992116Z[0m [32m INFO[0m Price update received: hype/usd 1774726158000 39855360954679390000
+[2m2026-03-28T19:29:18.993009Z[0m [32m INFO[0m Database write successful: 1 rows affected, inserted ID 2329
