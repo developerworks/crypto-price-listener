@@ -1,13 +1,43 @@
 
-## sqlx::query! 宏的编译时检查
+# Overview
+
+**Project Overview:** This is a Rust-based crypto price listener that connects to Polymarket's WebSocket API to receive real-time cryptocurrency price updates and stores them in a MySQL database.
+
+**Technology Stack:**
+
+- Rust (Edition 2024)
+- Tokio for async runtime
+- tokio-tungstenite for WebSocket connections
+- sqlx for database operations with MySQL
+- serde/serde_json for serialization
+- tracing for logging
+- anyhow for error handling
+- dotenv for environment configuration
+- rust_decimal for decimal precision
+
+**Architecture:** It's a simple single-file application (main.rs) that:
+
+- Connects to a WebSocket endpoint (wss://ws-live-data.polymarket.com)
+- Subscribes to crypto price updates
+- Inserts received data into MySQL database
+
+**Database:** MySQL with a table crypto_prices storing symbol, price, and timestamp
+
+**Build Process:** Standard Cargo build system
+
+**Configuration:** Environment variables via `.env` file (DATABASE_URL)
+
+## sqlx::query! compile check
 
 需要在项目根目录中 `.env` 文件中配置环境变量
+
+You need set environment variable in `.env` file
 
 ```
 echo "DATABASE_URL=mysql://root:password@localhost:3306/polymarket" > .env
 ```
 
-数据库表定义
+**DDL:**
 
 ```sql
 CREATE TABLE `crypto_prices` (
