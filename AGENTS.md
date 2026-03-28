@@ -1,65 +1,65 @@
-# AGENTS.md - AI 编码助手项目指南
+# AGENTS.md - AI Coding Assistant Project Guide
 
-本文档为 AI 编码助手提供项目背景、构建流程和开发规范。
-
----
-
-## 项目概述
-
-**crypto-price-listener** 是一个基于 Rust 的加密货币价格监听服务。该应用通过 WebSocket 连接到 Polymarket 的实时数据流，订阅加密货币价格更新，并将接收到的数据持久化到 MySQL 数据库中。
-
-### 核心功能
-- 连接到 Polymarket WebSocket 服务 (`wss://ws-live-data.polymarket.com`)
-- 订阅 `crypto_prices_chainlink` 主题的价格更新
-- 将价格数据（交易对符号、时间戳、价格）写入 MySQL 数据库
-- 使用 tracing 进行结构化日志记录
+This document provides project background, build process, and development guidelines for AI coding assistants.
 
 ---
 
-## 技术栈
+## Project Overview
 
-| 组件 | 用途 | 版本 |
-|------|------|------|
-| Rust | 编程语言 | Edition 2024 |
-| Tokio | 异步运行时 | 1.50.0 |
-| tokio-tungstenite | WebSocket 客户端 | 0.29.0 |
-| sqlx | 异步 SQL 工具包 | 0.8.6 |
-| serde/serde_json | 序列化/反序列化 | 1.0.x |
-| tracing | 日志记录 | 0.1.x |
-| anyhow | 错误处理 | 1.0.x |
-| dotenv | 环境变量加载 | 0.15.0 |
-| rust_decimal | 高精度十进制数 | 1.41.0 |
+**crypto-price-listener** is a Rust-based cryptocurrency price listening service. The application connects to Polymarket's real-time data stream via WebSocket, subscribes to cryptocurrency price updates, and persists received data to a MySQL database.
+
+### Core Features
+- Connect to Polymarket WebSocket service (`wss://ws-live-data.polymarket.com`)
+- Subscribe to price updates on the `crypto_prices_chainlink` topic
+- Write price data (trading pair symbol, timestamp, price) to MySQL database
+- Structured logging using tracing
 
 ---
 
-## 项目结构
+## Technology Stack
+
+| Component | Purpose | Version |
+|-----------|---------|---------|
+| Rust | Programming language | Edition 2024 |
+| Tokio | Async runtime | 1.50.0 |
+| tokio-tungstenite | WebSocket client | 0.29.0 |
+| sqlx | Async SQL toolkit | 0.8.6 |
+| serde/serde_json | Serialization/Deserialization | 1.0.x |
+| tracing | Logging | 0.1.x |
+| anyhow | Error handling | 1.0.x |
+| dotenv | Environment variable loading | 0.15.0 |
+| rust_decimal | High-precision decimal numbers | 1.41.0 |
+
+---
+
+## Project Structure
 
 ```
 crypto-price-listener/
-├── Cargo.toml          # 项目配置和依赖
-├── Cargo.lock          # 依赖锁定文件
-├── .env                # 环境变量配置（gitignored）
-├── .gitignore          # Git 忽略规则
-├── README.md           # 项目文档（中文）
-├── AGENTS.md           # 本文件
+├── Cargo.toml          # Project configuration and dependencies
+├── Cargo.lock          # Dependency lock file
+├── .env                # Environment variables configuration (gitignored)
+├── .gitignore          # Git ignore rules
+├── README.md           # Project documentation
+├── AGENTS.md           # This file
 └── src/
-    └── main.rs         # 单一入口文件（全部逻辑）
+    └── main.rs         # Single entry point (all logic)
 ```
 
-### 代码组织
+### Code Organization
 
-当前项目采用**单文件架构**，所有逻辑集中在 `src/main.rs`：
+The current project uses a **single-file architecture**, with all logic concentrated in `src/main.rs`:
 
-- **数据模型** (`Subscription`, `SubscriptionItem`, `PriceUpdateMessage`, `PriceUpdatePayload`)
-- **WebSocket 连接管理** - 使用 `tokio_tungstenite::connect_async`
-- **消息处理循环** - 解析 JSON 消息并提取价格数据
-- **数据库写入** - 使用 `sqlx::query!` 宏执行插入操作
+- **Data Models** (`Subscription`, `SubscriptionItem`, `PriceUpdateMessage`, `PriceUpdatePayload`)
+- **WebSocket Connection Management** - Uses `tokio_tungstenite::connect_async`
+- **Message Processing Loop** - Parses JSON messages and extracts price data
+- **Database Writes** - Executes insert operations using `sqlx::query!` macro
 
 ---
 
-## 数据库架构
+## Database Schema
 
-### 表结构
+### Table Structure
 
 ```sql
 CREATE TABLE `crypto_prices` (
@@ -71,134 +71,134 @@ CREATE TABLE `crypto_prices` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 
-### 字段说明
-- `symbol`: 交易对符号（如 BTCUSD、ETHUSD）
-- `price`: 价格值，使用 `decimal(38,0)` 存储完整精度
-- `timestamp`: Unix 时间戳（毫秒）
+### Field Descriptions
+- `symbol`: Trading pair symbol (e.g., BTCUSD, ETHUSD)
+- `price`: Price value, stored with full precision using `decimal(38,0)`
+- `timestamp`: Unix timestamp in milliseconds
 
 ---
 
-## 构建和运行
+## Build and Run
 
-### 前置要求
+### Prerequisites
 
-1. **Rust 工具链** (>= 1.94.0)
-2. **MySQL 数据库** - 运行并可通过网络访问
-3. **环境变量配置** - 在项目根目录创建 `.env` 文件
+1. **Rust toolchain** (>= 1.94.0)
+2. **MySQL database** - Running and accessible via network
+3. **Environment configuration** - Create `.env` file in project root
 
-### 环境配置
+### Environment Configuration
 
-创建 `.env` 文件：
+Create `.env` file:
 
 ```bash
-# 格式: mysql://用户名:密码@主机:端口/数据库名
+# Format: mysql://username:password@host:port/database
 DATABASE_URL="mysql://root:password@localhost:3306/polymarket"
 ```
 
-### 构建命令
+### Build Commands
 
 ```bash
-# 开发构建
+# Development build
 cargo build
 
-# 发布构建
+# Release build
 cargo build --release
 
-# 运行（会自动读取 .env）
+# Run (automatically reads .env)
 cargo run
 ```
 
-### sqlx 编译时检查
+### sqlx Compile-time Checking
 
-项目使用 `sqlx::query!` 宏进行**编译时 SQL 验证**。这要求：
-- `.env` 文件必须存在且包含有效的 `DATABASE_URL`
-- 数据库必须可访问且包含相应的表结构
-- 如果数据库不可用，编译将失败
+The project uses `sqlx::query!` macro for **compile-time SQL validation**. This requires:
+- `.env` file must exist and contain a valid `DATABASE_URL`
+- Database must be accessible with the appropriate table structure
+- Compilation will fail if the database is unavailable
 
 ---
 
-## 代码风格指南
+## Code Style Guide
 
-### 一般约定
+### General Conventions
 
-1. **语言**：代码注释和文档使用中文
-2. **错误处理**：使用 `anyhow::Result` 进行错误传播
-3. **日志记录**：使用 `tracing` crate，日志级别为 `INFO`
-4. **异步风格**：使用 `tokio` 运行时，函数标记为 `async`
+1. **Language**: Code comments and documentation use English
+2. **Error Handling**: Use `anyhow::Result` for error propagation
+3. **Logging**: Use `tracing` crate at `INFO` log level
+4. **Async Style**: Use `tokio` runtime, functions marked as `async`
 
-### 命名规范
+### Naming Conventions
 
-- 结构体：PascalCase (`PriceUpdateMessage`)
-- 函数/变量：snake_case (`price_update`, `full_accuracy_value`)
-- 常量：SCREAMING_SNAKE_CASE (`URL`)
+- Structs: PascalCase (`PriceUpdateMessage`)
+- Functions/Variables: snake_case (`price_update`, `full_accuracy_value`)
+- Constants: SCREAMING_SNAKE_CASE (`URL`)
 
-### 特殊标记
+### Special Attributes
 
 ```rust
-#[allow(dead_code)]  // 用于暂时未使用的字段，避免编译器警告
-#[serde(rename = "type")]  // 处理 Rust 关键字冲突的字段名
+#[allow(dead_code)]  // For temporarily unused fields, avoids compiler warnings
+#[serde(rename = "type")]  // Handle field names conflicting with Rust keywords
 type_: String,
 ```
 
 ---
 
-## 测试策略
+## Testing Strategy
 
-当前项目**未包含自动化测试**。如需添加测试：
+The current project **does not include automated tests**. To add tests:
 
 ```bash
-# 运行测试
+# Run tests
 cargo test
 
-# 添加单元测试示例
+# Example unit test
 #[cfg(test)]
 mod tests {
     use super::*;
 
     #[test]
     fn test_deserialization() {
-        // 测试 JSON 反序列化
+        // Test JSON deserialization
     }
 }
 ```
 
 ---
 
-## 部署注意事项
+## Deployment Considerations
 
-### 环境变量
+### Environment Variables
 
-生产环境必须设置 `DATABASE_URL`，建议：
-- 使用 secrets 管理服务存储数据库凭据
-- 避免将 `.env` 文件提交到版本控制
+Production environment must set `DATABASE_URL`. Recommendations:
+- Use secrets management service to store database credentials
+- Avoid committing `.env` file to version control
 
-### 数据库连接池
+### Database Connection Pool
 
-当前配置：最大 5 个连接 (`max_connections(5)`)
-根据负载情况可能需要调整。
+Current configuration: Maximum 5 connections (`max_connections(5)`)
+May need adjustment based on load.
 
-### 错误恢复
+### Error Recovery
 
-WebSocket 连接断开后不会自动重连。生产环境可能需要：
-- 添加指数退避重连逻辑
-- 监控连接健康状态
-- 添加优雅关闭处理（SIGTERM/SIGINT）
-
----
-
-## 安全考虑
-
-1. **数据库凭据**：`.env` 文件已添加到 `.gitignore`，不会意外提交
-2. **TLS 连接**：`tokio-tungstenite` 使用 `native-tls` 功能进行加密 WebSocket 连接
-3. **SQL 注入**：使用 `sqlx::query!` 宏，参数化查询防止注入
+WebSocket connection now automatically reconnects with exponential backoff:
+- Initial retry delay: 1 second
+- Maximum retry delay: 60 seconds
+- Unlimited reconnection attempts (configurable)
+- Graceful shutdown handling on SIGTERM/SIGINT
 
 ---
 
-## 扩展建议
+## Security Considerations
 
-如需扩展功能，可考虑：
-- 将单文件拆分为模块（`models/`, `db/`, `websocket/`）
-- 添加配置管理（支持多个交易对订阅）
-- 实现优雅关闭和连接重连
-- 添加指标导出（Prometheus）
-- 支持其他数据库（PostgreSQL、SQLite）
+1. **Database Credentials**: `.env` file is added to `.gitignore` and won't be accidentally committed
+2. **TLS Connection**: `tokio-tungstenite` uses `native-tls` feature for encrypted WebSocket connections
+3. **SQL Injection Prevention**: Uses `sqlx::query!` macro with parameterized queries
+
+---
+
+## Extension Suggestions
+
+For future enhancements, consider:
+- Split single file into modules (`models/`, `db/`, `websocket/`)
+- Add configuration management (support multiple trading pair subscriptions)
+- Implement metrics export (Prometheus)
+- Support other databases (PostgreSQL, SQLite)
