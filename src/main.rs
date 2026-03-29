@@ -1,11 +1,12 @@
+mod database;
 mod logging;
 mod signal;
 
 use anyhow::Result;
+use database::{create_db_pool, handle_price_update};
 use dotenv::dotenv;
 use futures_util::{SinkExt, StreamExt};
-use serde::{Deserialize, Serialize};
-use sqlx::mysql::MySqlPoolOptions;
+use serde::Serialize;
 use std::time::Duration;
 use tokio::time::{Instant, sleep};
 use tokio_tungstenite::{connect_async, tungstenite::Bytes, tungstenite::Message};
@@ -32,38 +33,7 @@ struct SubscriptionItem {
     type_: String,
     filters: String,
 }
-#[allow(dead_code)]
-#[derive(Deserialize, Debug)]
-struct PriceUpdateMessage {
-    connection_id: String,
-    payload: PriceUpdatePayload,
-    timestamp: i64,
-    topic: String,
-    #[serde(rename = "type")]
-    type_: String,
-}
-
-#[allow(dead_code)]
-#[derive(Deserialize, Debug)]
-struct PriceUpdatePayload {
-    full_accuracy_value: String,
-    symbol: String,
-    timestamp: i64,
-    value: f64,
-}
-
 const URL: &str = "wss://ws-live-data.polymarket.com";
-
-/// Create database connection pool
-async fn create_db_pool() -> Result<sqlx::MySqlPool> {
-    let database_url = std::env::var("DATABASE_URL")
-        .map_err(|_| anyhow::anyhow!("DATABASE_URL env var not set"))?;
-    let pool = MySqlPoolOptions::new()
-        .max_connections(5)
-        .connect(database_url.as_str())
-        .await?;
-    Ok(pool)
-}
 
 /// Create subscription message
 fn create_subscription() -> Subscription {
@@ -76,31 +46,6 @@ fn create_subscription() -> Subscription {
         action: "subscribe".to_string(),
         subscriptions: subscription_items,
     }
-}
-
-/// Handle price update message
-async fn handle_price_update(text: &str, pool: &sqlx::MySqlPool) -> Result<()> {
-    if let Ok(price_update_message) = serde_json::from_str::<PriceUpdateMessage>(text) {
-        let symbol = &price_update_message.payload.symbol;
-        let timestamp = &price_update_message.payload.timestamp;
-        let price = &price_update_message.payload.full_accuracy_value;
-        info!("Price update received: {} {} {}", symbol, timestamp, price);
-
-        let result = sqlx::query!(
-            "INSERT INTO crypto_prices (symbol, timestamp, price) VALUES (?, ?, ?)",
-            symbol,
-            timestamp,
-            price,
-        )
-        .execute(pool)
-        .await?;
-        info!(
-            "Database write successful: {} rows affected, inserted ID {}",
-            result.rows_affected(),
-            result.last_insert_id()
-        );
-    }
-    Ok(())
 }
 
 /// Run WebSocket connection (internal function, can be called by reconnection logic)
