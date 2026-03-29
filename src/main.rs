@@ -7,7 +7,7 @@ use std::time::Duration;
 use tokio::time::{Instant, sleep};
 use tokio_tungstenite::{connect_async, tungstenite::Bytes, tungstenite::Message};
 use tracing::{error, info, warn};
-use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt, EnvFilter};
+use tracing_subscriber::{EnvFilter, layer::SubscriberExt, util::SubscriberInitExt};
 
 /// WebSocket reconnection configuration
 const INITIAL_RETRY_DELAY_SECS: u64 = 1;
@@ -176,38 +176,37 @@ async fn run_websocket_connection(
 fn init_tracing() -> Result<tracing_appender::non_blocking::WorkerGuard> {
     // Create logs directory if it doesn't exist
     std::fs::create_dir_all(LOG_DIRECTORY)?;
-    
+
     // File appender with daily rotation
     let file_appender = tracing_appender::rolling::daily(LOG_DIRECTORY, LOG_FILE_PREFIX);
     let (file_writer, guard) = tracing_appender::non_blocking(file_appender);
-    
+
     // Stdout layer
     let stdout_layer = tracing_subscriber::fmt::layer()
         .with_writer(std::io::stdout)
         .with_target(false);
-    
+
     // File layer
     let file_layer = tracing_subscriber::fmt::layer()
         .with_writer(file_writer)
         .with_target(false);
-    
+
     // Environment filter (can be controlled via RUST_LOG env var)
-    let env_filter = EnvFilter::try_from_default_env()
-        .unwrap_or_else(|_| EnvFilter::new("info"));
-    
+    let env_filter = EnvFilter::try_from_default_env().unwrap_or_else(|_| EnvFilter::new("info"));
+
     tracing_subscriber::registry()
         .with(env_filter)
         .with(stdout_layer)
         .with(file_layer)
         .init();
-    
+
     Ok(guard)
 }
 
 #[tokio::main]
 async fn main() -> Result<()> {
     dotenv().ok();
-    
+
     // Initialize tracing and keep the guard alive
     let _tracing_guard = init_tracing()?;
 
@@ -241,11 +240,14 @@ async fn main() -> Result<()> {
         }
 
         // Check max reconnection attempts
-        if let Some(max_attempts) = MAX_RECONNECT_ATTEMPTS {
-            if connection_count >= max_attempts {
-                error!("Max reconnection attempts ({}) reached, giving up", max_attempts);
-                break;
-            }
+        if let Some(max_attempts) = MAX_RECONNECT_ATTEMPTS
+            && connection_count >= max_attempts
+        {
+            error!(
+                "Max reconnection attempts ({}) reached, giving up",
+                max_attempts
+            );
+            break;
         }
 
         connection_count += 1;
@@ -264,7 +266,10 @@ async fn main() -> Result<()> {
             }
             Err(e) => {
                 let duration = start_time.elapsed();
-                warn!("Connection abnormally terminated (uptime: {:.2?}): {}", duration, e);
+                warn!(
+                    "Connection abnormally terminated (uptime: {:.2?}): {}",
+                    duration, e
+                );
 
                 // Check if shutdown signal received
                 if *shutdown_rx.borrow() {
@@ -273,7 +278,10 @@ async fn main() -> Result<()> {
                 }
 
                 // Exponential backoff retry
-                warn!("Will attempt to reconnect in {} seconds...", retry_delay_secs);
+                warn!(
+                    "Will attempt to reconnect in {} seconds...",
+                    retry_delay_secs
+                );
 
                 // Use tokio::select to listen for both shutdown signal and delay
                 tokio::select! {
