@@ -1,8 +1,13 @@
+mod config;
 mod database;
 mod logging;
 mod signal;
 
 use anyhow::Result;
+use config::{
+    BACKOFF_MULTIPLIER, INITIAL_RETRY_DELAY_SECS, MAX_RECONNECT_ATTEMPTS,
+    MAX_RETRY_DELAY_SECS, URL,
+};
 use database::{create_db_pool, handle_price_update};
 use dotenv::dotenv;
 use futures_util::{SinkExt, StreamExt};
@@ -11,14 +16,6 @@ use std::time::Duration;
 use tokio::time::{Instant, sleep};
 use tokio_tungstenite::{connect_async, tungstenite::Bytes, tungstenite::Message};
 use tracing::{error, info, warn};
-
-/// WebSocket reconnection configuration
-const INITIAL_RETRY_DELAY_SECS: u64 = 1;
-const MAX_RETRY_DELAY_SECS: u64 = 60;
-const BACKOFF_MULTIPLIER: u64 = 2;
-
-/// Maximum number of reconnection attempts (None for unlimited)
-const MAX_RECONNECT_ATTEMPTS: Option<u64> = None;
 
 #[derive(Serialize, Debug)]
 struct Subscription {
@@ -33,7 +30,7 @@ struct SubscriptionItem {
     type_: String,
     filters: String,
 }
-const URL: &str = "wss://ws-live-data.polymarket.com";
+
 
 /// Create subscription message
 fn create_subscription() -> Subscription {
