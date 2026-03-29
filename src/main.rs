@@ -1,3 +1,4 @@
+mod logging;
 mod signal;
 
 use anyhow::Result;
@@ -9,7 +10,6 @@ use std::time::Duration;
 use tokio::time::{Instant, sleep};
 use tokio_tungstenite::{connect_async, tungstenite::Bytes, tungstenite::Message};
 use tracing::{error, info, warn};
-use tracing_subscriber::{EnvFilter, layer::SubscriberExt, util::SubscriberInitExt};
 
 /// WebSocket reconnection configuration
 const INITIAL_RETRY_DELAY_SECS: u64 = 1;
@@ -53,10 +53,6 @@ struct PriceUpdatePayload {
 }
 
 const URL: &str = "wss://ws-live-data.polymarket.com";
-
-/// Log file configuration
-const LOG_FILE_PREFIX: &str = "crypto-price-listener";
-const LOG_DIRECTORY: &str = "logs";
 
 /// Create database connection pool
 async fn create_db_pool() -> Result<sqlx::MySqlPool> {
@@ -174,43 +170,12 @@ async fn run_websocket_connection(
     }
 }
 
-/// Initialize tracing with file and stdout output
-fn init_tracing() -> Result<tracing_appender::non_blocking::WorkerGuard> {
-    // Create logs directory if it doesn't exist
-    std::fs::create_dir_all(LOG_DIRECTORY)?;
-
-    // File appender with daily rotation
-    let file_appender = tracing_appender::rolling::daily(LOG_DIRECTORY, LOG_FILE_PREFIX);
-    let (file_writer, guard) = tracing_appender::non_blocking(file_appender);
-
-    // Stdout layer
-    let stdout_layer = tracing_subscriber::fmt::layer()
-        .with_writer(std::io::stdout)
-        .with_target(false);
-
-    // File layer
-    let file_layer = tracing_subscriber::fmt::layer()
-        .with_writer(file_writer)
-        .with_target(false);
-
-    // Environment filter (can be controlled via RUST_LOG env var)
-    let env_filter = EnvFilter::try_from_default_env().unwrap_or_else(|_| EnvFilter::new("info"));
-
-    tracing_subscriber::registry()
-        .with(env_filter)
-        .with(stdout_layer)
-        .with(file_layer)
-        .init();
-
-    Ok(guard)
-}
-
 #[tokio::main]
 async fn main() -> Result<()> {
     dotenv().ok();
 
     // Initialize tracing and keep the guard alive
-    let _tracing_guard = init_tracing()?;
+    let _tracing_guard = logging::init_tracing()?;
 
     let pool = create_db_pool().await?;
     info!("Database connection pool created successfully");
