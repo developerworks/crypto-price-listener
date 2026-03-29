@@ -1,3 +1,5 @@
+mod signal;
+
 use anyhow::Result;
 use dotenv::dotenv;
 use futures_util::{SinkExt, StreamExt};
@@ -218,15 +220,7 @@ async fn main() -> Result<()> {
     let (shutdown_tx, mut shutdown_rx) = tokio::sync::watch::channel(false);
 
     // Setup Ctrl+C signal handler
-    let shutdown_tx_clone = shutdown_tx.clone();
-    tokio::spawn(async move {
-        if let Err(e) = tokio::signal::ctrl_c().await {
-            error!("Failed to listen for Ctrl+C signal: {}", e);
-            return;
-        }
-        info!("Ctrl+C signal received, shutting down service...");
-        let _ = shutdown_tx_clone.send(true);
-    });
+    signal::setup_ctrl_c_handler(shutdown_tx.clone());
 
     // Reconnection loop
     let mut retry_delay_secs = INITIAL_RETRY_DELAY_SECS;
